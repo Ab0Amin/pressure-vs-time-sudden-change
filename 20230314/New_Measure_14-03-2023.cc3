@@ -1,0 +1,3801 @@
+<?xml version="1.0" encoding="utf-16"?>
+<MeasureConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MeasureDevicesSer>
+    <anyType xsi:type="TS30">
+      <Address>1</Address>
+      <ComName>COM6</ComName>
+      <SN>159447</SN>
+      <Online>true</Online>
+      <DeviceClass>5</DeviceClass>
+      <DeviceGroup>20</DeviceGroup>
+      <DeviceYear>12</DeviceYear>
+      <DeviceWeek>28</DeviceWeek>
+      <TempIntervalTic>1</TempIntervalTic>
+      <Type>S30X</Type>
+      <ChannelList>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">P1</Key>
+          <Value xsi:type="PChannel">
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>showInGraph</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">true</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>ChannelColor</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">-65536</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>channelSymbol</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">12</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>UserMaxColor</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">-65536</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>UserMaxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">20000</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>UserMinValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">0</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Number>1</Number>
+            <Unit>bar</Unit>
+            <VarList>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">minValue</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(80)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">80</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">maxValue</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(81)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">81</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>1</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">offset</Key>
+                <Value xsi:type="FZero">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description />
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.FZero, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">64</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>commandSet</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>commandFactory</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">1</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>enableSetValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:boolean">true</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>-0.2128175</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">gain</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Professional</MinReadLevel>
+                  <MinWriteLevel>Professional</MinWriteLevel>
+                  <Description>F30(65)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">65</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>1</Value>
+                </Value>
+              </DictionaryEntry>
+            </VarList>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">TOB1</Key>
+          <Value xsi:type="TChannel">
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>showInGraph</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>ChannelColor</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">-16776961</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>channelSymbol</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">12</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>UserMaxColor</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">-65536</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>UserMaxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">20000</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>UserMinValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">0</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Number>4</Number>
+            <Unit>¬∞C</Unit>
+            <VarList>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">minValue</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(86)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">86</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>10</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">maxValue</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(87)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">87</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>40</Value>
+                </Value>
+              </DictionaryEntry>
+            </VarList>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">Analog 1</Key>
+          <Value xsi:type="AChannel">
+            <Settings>
+              <Data />
+            </Settings>
+            <Number>300</Number>
+            <Unit>V</Unit>
+            <VarList>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">unit</Key>
+                <Value xsi:type="F100MaskedByte">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>1 = mA; 2=V</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F100MaskedByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>para</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">4</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>mask</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure0</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure1</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure2</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">6</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>2</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">analogueSourceChannel</Key>
+                <Value xsi:type="F32Boolean">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F32(9) 0 = CH0; 1 = P1</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F32Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>invert</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:boolean">false</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">9</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>bit</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">4</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>mask</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">239</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>set</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">16</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>true</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">offset</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(68)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">68</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">gain</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(69)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">69</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>1</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">pressureMinSignal</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(92)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">92</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">pressureMaxSignal</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(93)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">93</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>1</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">analogueMinSignal</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(94)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">94</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">analogueMaxSignal</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(95)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">95</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>10</Value>
+                </Value>
+              </DictionaryEntry>
+            </VarList>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">CH0</Key>
+          <Value xsi:type="CChannel">
+            <Settings>
+              <Data />
+            </Settings>
+            <Number>0</Number>
+            <Unit>-</Unit>
+            <VarList>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">calculation</Key>
+                <Value xsi:type="FByte">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Professional</MinWriteLevel>
+                  <Description />
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.FByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>para</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">2</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>function</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">100</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">threshold</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Professional</MinWriteLevel>
+                  <Description>F30(53)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">53</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">offset</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Admin</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>F30(70)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">70</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">gain</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(71)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">71</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>1</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">minValue</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Professional</MinWriteLevel>
+                  <Description>F30(90)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">90</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">maxValue</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Professional</MinWriteLevel>
+                  <Description>F30(91)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">91</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx1</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(36)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">36</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx2</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(37)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">37</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx3</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(38)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">38</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx4</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(39)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">39</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx5</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(40)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">40</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx6</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(41)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">41</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx7</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(42)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">42</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvx8</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(43)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">43</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy1</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(44)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">44</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy2</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(45)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">45</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy3</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(46)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">46</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy4</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(47)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">47</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy5</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(48)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">48</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy6</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(49)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">49</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy7</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(50)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">50</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">cvy8</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(51)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">51</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+            </VarList>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">Switch 1</Key>
+          <Value xsi:type="SChannel">
+            <Settings>
+              <Data />
+            </Settings>
+            <Number>302</Number>
+            <VarList>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchSourceChannel</Key>
+                <Value xsi:type="F100MaskedByte">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>0 = CH0; 1 = P1; 2 = P2</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F100MaskedByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>para</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">0</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>mask</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">7</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure0</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure1</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure2</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">5</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchOutputEnabled</Key>
+                <Value xsi:type="F100Boolean">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description />
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>invert</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:boolean">false</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>para</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">0</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>bit</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>mask</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">247</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>set</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">8</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>false</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchUpperThreshold</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(72)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">72</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchLowerThreshold</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(73)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">73</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+            </VarList>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">Switch 2</Key>
+          <Value xsi:type="SChannel">
+            <Settings>
+              <Data />
+            </Settings>
+            <Number>303</Number>
+            <VarList>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchSourceChannel</Key>
+                <Value xsi:type="F100MaskedByte">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description>0 = CH0; 1 = P1; 2 = P2</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F100MaskedByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>para</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">0</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>mask</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">112</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure0</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">4</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure1</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>structure2</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">1</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>0</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchOutputEnabled</Key>
+                <Value xsi:type="F100Boolean">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Admin</MinWriteLevel>
+                  <Description />
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>invert</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:boolean">false</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>para</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">0</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>bit</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:int">7</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>mask</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">127</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>set</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">128</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>false</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchUpperThreshold</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(78)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">78</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+              <DictionaryEntry>
+                <Key xsi:type="xsd:string">switchLowerThreshold</Key>
+                <Value xsi:type="F30Double">
+                  <MinReadLevel>Normal</MinReadLevel>
+                  <MinWriteLevel>Normal</MinWriteLevel>
+                  <Description>F30(79)</Description>
+                  <Settings>
+                    <Data>
+                      <item>
+                        <key>
+                          <string>type</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>index</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:unsignedByte">79</anyType>
+                        </value>
+                      </item>
+                      <item>
+                        <key>
+                          <string>maxValue</string>
+                        </key>
+                        <value>
+                          <anyType xsi:type="xsd:double">NaN</anyType>
+                        </value>
+                      </item>
+                    </Data>
+                  </Settings>
+                  <Value>NaN</Value>
+                </Value>
+              </DictionaryEntry>
+            </VarList>
+          </Value>
+        </DictionaryEntry>
+      </ChannelList>
+      <varList>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">adaptiveFilter</Key>
+          <Value xsi:type="F100Boolean">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Professional</MinWriteLevel>
+            <Description />
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>invert</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>bit</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">254</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>set</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">1</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>true</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">tempLowPasFilterEnabled</Key>
+          <Value xsi:type="F100Boolean">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Professional</MinWriteLevel>
+            <Description />
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>invert</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>bit</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">1</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">253</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>set</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>false</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">overSamplingRatio</Key>
+          <Value xsi:type="F100MaskedByte">
+            <MinReadLevel>Admin</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>2^(8+overSamplingRatio)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100MaskedByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">28</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure0</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure1</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure2</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>5</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">samplePerAverage</Key>
+          <Value xsi:type="F100MaskedByte">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Professional</MinWriteLevel>
+            <Description>2^samplePerAverage</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100MaskedByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">96</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure0</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">5</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure1</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure2</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">1</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>1</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">P1D_C</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>F30(21)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">21</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>-0.0006241</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">P1C_C</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>F30(25)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">25</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>0</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">P1B_D</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>F30(28)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">28</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>-0</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">P1B_C</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>F30(29)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">29</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>0</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">abdt</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>F30(99)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">99</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>0</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">baudrate</Key>
+          <Value xsi:type="F100Nibble">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Professional</MinWriteLevel>
+            <Description>0 = 9600 Baud; 1 = 115200 Baud</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Nibble, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">1</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>highNibble</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>0</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">parity</Key>
+          <Value xsi:type="F100Boolean">
+            <MinReadLevel>Professional</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description />
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>invert</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">1</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>bit</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">4</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">239</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>set</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">16</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>false</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">evenParity</Key>
+          <Value xsi:type="F100Boolean">
+            <MinReadLevel>Professional</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description />
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>invert</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">1</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>bit</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">5</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">223</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>set</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">32</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>false</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">adaptiveFilterFactory</Key>
+          <Value xsi:type="F100Boolean">
+            <MinReadLevel>Professional</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description />
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>invert</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>bit</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">254</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>set</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">1</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>true</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">tempLowPasFilterEnabledFactory</Key>
+          <Value xsi:type="F100Boolean">
+            <MinReadLevel>Professional</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description />
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Boolean, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>invert</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>bit</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">1</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">253</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>set</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>false</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">overSamplingRatioFactory</Key>
+          <Value xsi:type="F100MaskedByte">
+            <MinReadLevel>Admin</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>2^(8+overSamplingRatio)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100MaskedByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">28</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure0</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure1</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure2</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">3</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>5</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">samplePerAverageFactory</Key>
+          <Value xsi:type="F100MaskedByte">
+            <MinReadLevel>Professional</MinReadLevel>
+            <MinWriteLevel>Admin</MinWriteLevel>
+            <Description>2^samplePerAverage</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100MaskedByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">0</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>mask</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">96</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure0</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">5</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure1</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>structure2</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">1</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>1</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">temperaturMeasureIntervall</Key>
+          <Value xsi:type="FByte">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Professional</MinWriteLevel>
+            <Description>in Sekunden</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.FByte, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">3</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>function</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">100</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">255</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>1</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">cnt_Tcomp</Key>
+          <Value xsi:type="F100Nibble">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Professional</MinWriteLevel>
+            <Description>Tcomp-Intervall = cnt_Tcomp*temperaturMeasureIntervall</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Nibble, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">4</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>highNibble</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">false</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>1</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">lowPasFilter</Key>
+          <Value xsi:type="F100Nibble">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Professional</MinWriteLevel>
+            <Description>Pn+1 = ((2^lowPasFilter-1)*Pn-1+Pn)/(2^lowPasFilter)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F100Nibble, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">2</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>para</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:int">4</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>highNibble</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:boolean">true</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>0</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 1</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(100)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">100</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 2</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(101)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">101</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 3</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(102)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">102</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 4</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(103)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">103</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 5</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(104)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">104</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 6</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(105)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">105</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 7</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(106)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">106</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 8</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(107)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">107</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 9</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(108)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">108</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 10</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(109)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">109</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 11</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(110)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">110</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">userValue 12</Key>
+          <Value xsi:type="F30Double">
+            <MinReadLevel>Normal</MinReadLevel>
+            <MinWriteLevel>Normal</MinWriteLevel>
+            <Description>F30(111)</Description>
+            <Settings>
+              <Data>
+                <item>
+                  <key>
+                    <string>type</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:string">Keller.Device.F30Double, Keller.Tools, Version=1.0.5680.26648, Culture=neutral, PublicKeyToken=null</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>index</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:unsignedByte">111</anyType>
+                  </value>
+                </item>
+                <item>
+                  <key>
+                    <string>maxValue</string>
+                  </key>
+                  <value>
+                    <anyType xsi:type="xsd:double">NaN</anyType>
+                  </value>
+                </item>
+              </Data>
+            </Settings>
+            <Value>NaN</Value>
+          </Value>
+        </DictionaryEntry>
+      </varList>
+      <Settings>
+        <Data>
+          <item>
+            <key>
+              <string>BoxXPosition</string>
+            </key>
+            <value>
+              <anyType xsi:type="xsd:int">10</anyType>
+            </value>
+          </item>
+          <item>
+            <key>
+              <string>BoxYPosition</string>
+            </key>
+            <value>
+              <anyType xsi:type="xsd:int">10</anyType>
+            </value>
+          </item>
+        </Data>
+      </Settings>
+      <VarGroups />
+      <ComConfigDict>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">baudrate</Key>
+          <Value xsi:type="xsd:int">9600</Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">parity</Key>
+          <Value xsi:type="xsd:int">0</Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">stopbits</Key>
+          <Value xsi:type="xsd:int">1</Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">readtimeout</Key>
+          <Value xsi:type="xsd:int">200</Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">writetimeout</Key>
+          <Value xsi:type="xsd:int">200</Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">handshake</Key>
+          <Value xsi:type="xsd:int">0</Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">databits</Key>
+          <Value xsi:type="xsd:int">8</Value>
+        </DictionaryEntry>
+        <DictionaryEntry>
+          <Key xsi:type="xsd:string">autoecho</Key>
+          <Value xsi:type="xsd:boolean">true</Value>
+        </DictionaryEntry>
+      </ComConfigDict>
+      <StartupUnits />
+    </anyType>
+  </MeasureDevicesSer>
+  <ConnectionsDict>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">1594475201228198203180231282139446167189918910121206209:P1</Key>
+      <Value xsi:type="xsd:string">0</Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">1594475201228198203180231282139446167189918910121206209:TOB1</Key>
+      <Value xsi:type="xsd:string">1</Value>
+    </DictionaryEntry>
+  </ConnectionsDict>
+  <RunUnitlmeasureCount>0</RunUnitlmeasureCount>
+  <MeasureIntervallSerialize>10000000</MeasureIntervallSerialize>
+  <Name>New_Measure_14-03-2023</Name>
+  <Settings>
+    <Data>
+      <item>
+        <key>
+          <string>SavePath</string>
+        </key>
+        <value>
+          <anyType xsi:type="xsd:string">C:\Users\Labor\Desktop\DatenKugel\Papst\20230314\New_Measure_14-03-2023.cc3</anyType>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>EnableSaving</string>
+        </key>
+        <value>
+          <anyType xsi:type="xsd:boolean">false</anyType>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>SaveInterval</string>
+        </key>
+        <value>
+          <anyType xsi:type="xsd:long">50000000</anyType>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>recovery</string>
+        </key>
+        <value>
+          <anyType xsi:type="xsd:boolean">false</anyType>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>showGraphDescription</string>
+        </key>
+        <value>
+          <anyType xsi:type="xsd:boolean">false</anyType>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>showGraphLegend</string>
+        </key>
+        <value>
+          <anyType xsi:type="xsd:boolean">false</anyType>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>sort</string>
+        </key>
+        <value>
+          <anyType xsi:type="xsd:string">sn</anyType>
+        </value>
+      </item>
+    </Data>
+  </Settings>
+  <StartMeasureTime>2023-03-14T10:15:35.0223231+01:00</StartMeasureTime>
+  <UseRelativeTime>false</UseRelativeTime>
+  <LockingMeasure>true</LockingMeasure>
+  <HoldOnlyCurrentValues>false</HoldOnlyCurrentValues>
+</MeasureConfig>ˇˇˇˇ  ›4Æu$€õ
+L/Ò?   ÅGu$€◊ÈˆH9Ò?  Ö(·u$€b‚Í[AÒ?  ∞¯zu$€Í`XY6Ò?  Ö∆u$€mìYÒ?  ∂ïÆu$€z@èø?  hdHu$€…OOƒ«l?   Â·u$€cÕmg ?  (¥{u$€r€céä§Ô?  ]u$€.ƒè÷Ω˙Ó?  #+Øu$€E‡˛ßIÓ?  €´Hu$€VÏ1ëíÌ?  S‚u$€⁄êfﬂÏ?  –¸{u$€Üpq˘¥/Ï?  3§u$€Tr3‹ÄÎ?  }rØu$€E=é0÷Í?  ;ıHu$€zÄ8Y4Í?  –õ‚u$€s∞H]|õÈ?  ÃC|u$€ßƒøFÈ?  xÏu$€AÎÜ“Ë?  XªØu$€Wèz>˘Á?  AäIu$€È‚Äß⁄xÁ?  ¿1„u$€éΩ(ã¸Ê?   }u$€ñ–]gÖÊ?  Hœu$€¡ÀôíÊ?  öv∞u$€EÁF¢Â?  ÁJu$€W´±Ñ5Â?  ÊÌ„u$€◊CEÊ€Ã‰?  M∆|u$€NBÈ!g‰?  ]ÿu$€¿Õ‚≈‰?  ©è∞u$€˘,t H¢„?  ‹7J u$€≥ ∑8tD„?  U‰ u$€?z7WË‚?  ,Ø}!u$€.¿9»ê‚?  =W"u$€èw(Ø:‚?  5%±"u$€/⁄àÃÁ·?  ØÕJ#u$€RNjvï·?  u‰#u$€4YÇ1G·?  –D~$u$€/ïmñÅ˘‡?  _%u$€-ZÄ∂’¨‡?  ï‚±%u$€âsyˇc‡?  b±K&u$€•_lkU‡?  ÅÂ&u$€[G∞Ã∂Æﬂ?  ,)'u$€·Í•ŒH)ﬂ?  z¯(u$€#œ?S•ﬁ?  ïü≤(u$€º˘W†'ﬁ?  /nL)u$€mÑè“∂´›?  +=Ê)u$€tíRu43›?  ÇÄ*u$€£√Ë^Ãª‹?  ∏€+u$€€oÌDIH‹?  ∞\≥+u$€âmú^sÿ€?  »ﬁL,u$€˛´ÿ©j€?  vÈÂ,u$€S°p,ﬁ˛⁄?  Uı~-u$€iÌl~≤ò⁄?  õ'.u$€rÎ$–3⁄?  oÅ±.u$€*Ù¿P—Ÿ?  ù)K/u$€Ï`ÃqŸ?  (“‰/u$€◊*f)˛Ÿ?  $y~0u$€º†tÿ3∫ÿ?  •“1u$€o\kîöbÿ?  ú≠±1u$€∏jË∞ÿ?  H$K2u$€ù‹J
+áπ◊?  ç‰2u$€hY˜èÖh◊?  º:}3u$€˘p‰å◊?  o4u$€ı?
+Ëœ»÷?  †Ø4u$€^èxh÷?  å“H5u$€Î¡I?Ü3÷?  √,‚5u$€Ä…◊ØÖÍ’?  µ_{6u$€∏^.=ı£’?  Ul7u$€·˘˚{_’?   Ï≠7u$€iòê≈Ï’?   mG8u$€{®»|õŸ‘?  _Ó‡8u$€◊4JÚ∑ò‘?  Inz9u$€éfnvZ‘?  a»:u$€[ÎãÑ∂‘?  ˚¨:u$€«K7âA‡”?  &UF;u$€Ÿo7“c•”?  t’ﬂ;u$€¡-i÷cl”?  ‚y<u$€Ò61n4”?  eâ=u$€ÈgE/˛“?  §	¨=u$€s"‚M»“?   ÿE>u$€aQßì“?  IÅﬂ>u$€‰9≥M`“?  ,y?u$€Aèb —-“?  µ©@u$€·ê≤Í¸—?  ›´@u$€©¸∆2XÃ—?  dEAu$€≤Ö{¿óù—?  πÕ›Au$€ ©Mú‹o—?  fÿvBu$€I>¿§B—?  ÁCu$€√AÁ⁄º—?  ü€©Cu$€èQûy9Ï–?  %©CDu$€´C…?é¡–?  Íw›Du$€réïÛ ò–?  £ wEu$€ÙC∂=ão–?  ·+Fu$€5(ö∞H–?  ˚©Fu$€6Bö"–?  ﬂ…CGu$€˛÷©M˜œ?  ñ˝‹Gu$€V6b≠œ?  ˚UvHu$€ÈıÇ™,eœ?  j±Iu$€÷¥A‹ãœ?  ˝~©Iu$€/∞åÿŒ?  LdBJu$€Ür¢]ÖîŒ?  Ò‰€Ju$€≤îv¥ªQŒ?  cçuKu$€&”WFŸŒ?  FrLu$€îG‹0—Õ?  óé®Lu$€ùaí™íÕ?  ¢HCMu$€Zç€sTÕ?  ‹Mu$€Ÿ|∑‘úÕ?  õøvNu$€6÷¥A‹Ã?  gOu$€jegvÇ¢Ã?  Ò¿©Ou$€+wUVâhÃ?  BCPu$€ìQ
+_2Ã?  ñõ‹Pu$€¡ﬁi◊)˚À?  ÙıuQu$€úS… P≈À?  yRu$€ü¡K1ëÀ?  Ç®Ru$€Ê"æ≥^À?  (çASu$€áıÎÛΩ+À?  ö⁄Su$€≠x§˚ ?  iÀsTu$€¡zí*@  ?  \◊Uu$€í-ÅJKõ ?  SX¶Uu$€EÌ#\m ?  q=?Vu$€;h$È? ?  òÿVu$€ 1˛" ?  „ÒqWu$€r≥.$Á…?  {tXu$€5|Î∆ª…?  ﬂ§§Xu$€\˝}kÃê…?  Ï$>Yu$€¿e
+´g…?  õ¶◊Yu$€E¬R∏y>…?  @'qZu$€‰eM,…?  ¯ˆ
+[u$€≠kã!Ô»?  ﬁ≈§[u$€vüàÍR»»?  0î>\u$€EÁF¢»?   cÿ\u$€®©ek}»?  Å3r]u$€WyaßX»?  D≥^u$€ADj⁄≈4»?   Â§^u$€ÿóÉe»?  Øç>_u$€hJ°‚Ó«?  QÁ◊_u$€&˛(ÍÃ«?  â∂q`u$€kñpçt´«?  \Üau$€kâKDÆä«?  ÿ‡§au$€æ√Hä#j«?  ÷á>bu$€kû#Ú]J«?  ΩVÿbu$€ó®ﬁÿ*«?  {◊qcu$€™ÁÓÑ®«?  W¶du$€æ4ªÓ∆?  a'•du$€hM=n—∆?  ¨Å>eu$€=Òú- ¥∆?  '*ÿeu$€y)–Ç´ó∆?  ¥4qfu$€nxßL{∆?  ﬁç
+gu$€¥Keõe`∆?  !§gu$€°}Q'E∆?  Dê=hu$€‡»Ö*∆?  v_◊hu$€lò°ÒD∆?  ‘ﬂpiu$€ª´hΩ)ˆ≈?  ÄØ
+ju$€ßƒ”∏‹≈?  Z~§ju$€<Èéƒ√≈?  £L>ku$€PÆÑIL´≈?  nÿku$€Em—∏&ì≈?  RÎqlu$€3aEW3|≈?  ¡kmu$€’®—ıéd≈?  ﬂÌ§mu$€aÂ+‹M≈?  ≠ª>nu$€ﬂfñ©Ó6≈?  'ãÿnu$€≈0qı≠ ≈?  jYrou$€Z 	yÛ
+≈?  )pu$€jî‰o1ıƒ?  ü–•pu$€).}ûıﬂƒ?  TR?qu$€òg.Àƒ?  ⁄˘ÿqu$€o1ö¶∂ƒ?  S»rru$€ _=ì¢ƒ?  æ˙su$€6"óéƒ?  ı…•su$€»3â’zƒ?  År?tu$€¢_[?˝gƒ?  ¸Ÿtu$€∑™6I=Uƒ?  âËruu$€9∆_§aBƒ?  =∏vu$€°X]=›/ƒ?  É8¶vu$€ O™}:ƒ?  Gπ?wu$€ K£nƒ?  _aŸwu$€>D˛Ù˙√?  ‘îrxu$€0)„ÑÆÈ√?  ˚üyu$€3ÌßŸ√?  â!•yu$€{´d∂»√?  >zu$€‚*ì—∑√?  /Jÿzu$€°˝£ ãß√?  õ.q{u$€j<Tò√?  S∞
+|u$€/“’gà√?  {·£|u$€bå˛Ü?y√?  k±=}u$€¥ÌÔîi√?  ©X◊}u$€˙ß
+¸óZ√?  ^ q~u$€ù`3eL√?  Íß
+u$€˛V¸=√?  x§u$€5∏≠-</√?  ÃF>Äu$€LπIw!√?  •◊Äu$€•ê…‘√?  ‚¨pÅu$€æò)R√?  ÚS
+Çu$€É˜UπP˘¬?  è#§Çu$€•ŒÌoÏ¬?  À=Éu$€Ö.óCAﬂ¬?  Är◊Éu$€À’4î“¬?  JBqÑu$€·∂Ôˆ≈¬?  3Í
+Öu$€˚≤¥Ssπ¬?  í§Öu$€<ÒAt≠¬?  V9>Üu$€“kX¯ü°¬?  ÿÜu$€˚=±Nï¬?  iÿqáu$€¯Ó†#ä¬?  ¸àu$€ﬂ÷' Ô~¬?  ‰N•àu$€ñË—˘ïs¬?  p?âu$€WqÙBKh¬?  Ïÿâu$€t∏±4K]¬?  Åîräu$€•^ñ¶R¬?  =ãu$€u(˘«1H¬?  €‰•ãu$€	áﬁ‚·=¬?  «≥?åu$€¶Õ›Sﬁ3¬?  <[Ÿåu$€pù⁄t_)¬?  ßsçu$€ö®ÔF0¬?  ì´éu$€≤Û¨§¬?  Óy¶éu$€+Gmá+¬?  iÜ?èu$€êçˆ.î¬?  ◊.Ÿèu$€É˜UπP˘¡?  íarêu$€‚C‰OØÔ¡?  l∫ëu$€ÆA;ÒÊ¡?  gâ•ëu$€A6ﬁ¡?  33?íu$€õ™{ds’¡?  6Ÿÿíu$€rùêÁDÃ¡?  ßÅrìu$€,xÂ™√¡?  ”îu$€"y{kª¡?  §©•îu$€î'Z•≤¡?  Xy?ïu$€ü∫®ÃÉ™¡?  ‘ÿïu$€*}◊V¢¢¡?  ˚°rñu$€◊¬,¥sö¡?  ¿"óu$€ª∂∑[í¡?  vÀ•óu$€Àe£s~ä¡?  år?òu$€aüJ¨Ç¡?  SAŸòu$€©[,˚d{¡?  £¡rôu$€¨ƒ·qˆs¡?  @Cöu$€IÊ¢kpl¡?  ›Í•öu$€®~î«âe¡?  ¸∫?õu$€ ¶\·]¡?  ¥àŸõu$€q:…V¡?  ÁWsúu$€—k˝>-P¡?  ä'ùu$€ì]ƒ“I¡?  ÀÂ¶ùu$€gÆ÷eB¡?  ∏¥@ûu$€6ÛöË;¡?  ÜÙŸûu$€8Í2F5¡?  ®¬süu$€ k¸xû.¡?  i†u$€xh≥E-(¡?  €ú¶†u$€€ q"¡?  Úl@°u$€C	é&r¡?  ‹Ÿ°u$€ ‰äA¡?  lôs¢u$€#»˜{¡?  ˛@£u$€m—∏&ì	¡?  NÈ¶£u$€€	@Ì¡?  +j@§u$€|6a±<˛¿?  ç8⁄§u$€˘Ò<]Ç¯¿?  B∫s•u$€Ωè£9≤Ú¿?  b¶u$€ÀÎ“–PÌ¿?  †ª¶¶u$€≈Y5—Á¿?  ?ä@ßu$€™8Ë≤‚¿?  4Y⁄ßu$€˙j˝„s›¿?  (t®u$€Â¥ß‰úÿ¿?  
+˜©u$€ø.9-”¿?  ˘wß©u$€2“AM„Õ¿?  (“@™u$€±}È»¿?  g,⁄™u$€"`cMƒ¿?  Â”s´u$€íÂ…⁄Kø¿?  ¢¨u$€3–k¢Ö∫¿?  rß¨u$€hy‹ùµ¿?  î@A≠u$€±qXu±¿?  „€≠u$€√ßÔÎv¨¿?  ÅﬁtÆu$€mz´	˝ß¿?  ÆØu$€N¨ùrñ£¿?  §Ä®Øu$€J∆{Xü¿?  ÎKB∞u$€¡§ù?õ¿?  ª‹∞u$€< =h—ñ¿?  FÍu±u$€vsLq∞í¿?  π≤u$€q˛ÀZØé¿?  gi©≤u$€˜æ‚øä¿?  ©ÒB≥u$€<©äÆÜ¿?  2¿‹≥u$€?$D˘Ç¿?  ›hv¥u$€Ûƒ˝¿?  ®µu$€JeÂÚz¿?  îﬂ©µu$€√⁄sÙSw¿?  êÆC∂u$€*ß‚kts¿?  ÓV›∂u$€»“á.®o¿?  å˛v∑u$€≥9s¥Ol¿?  ˆÃ∏u$€Pw˘1Ah¿?  ˙t™∏u$€7“Ï e¿?  +DDπu$€òíõóya¿?  3ﬁπu$€µ^¬W*^¿?  y¡w∫u$€y7ªZ¿?  Ωêªu$€ˆi¨XW¿?  +´ªu$€–ÊÇD$T¿?  “Fºu$€$≥ŒhP¿?  ‘ﬂºu$€ìg®õ’L¿?  TyΩu$€Ê_&ÂI¿?  ù"æu$€`«ïF¿?  ÅÚ¨æu$€ë◊ﬁdC¿?  8ƒFøu$€Pëû}@¿?   ì‡øu$€ ’ôÜ<¿?  ›z¿u$€aq8Û´9¿?  ^„¡u$€&I!⁄ÿ6¿?  ^ã≠¡u$€ÜzU¬n3¿?  /ZG¬u$€f:*Ì√0¿?  ˙)·¬u$€vq‡-¿?  P˘z√u$€€ÏBΩ*¿?  yƒu$€˘&Ú…/(¿?  ~˘≠ƒu$€€2‡,%¿?  y…G≈u$€.$ I"¿?  ò·≈u$€H¿ç9t¿?  ë{∆u$€zãá˜¿?  )¡«u$€@	}˙¿?  ¥iÆ«u$€Ù„ñE¿?  u8H»u$€"¢=è¿?  å‚»u$€P>òoÿ¿?  \’{…u$€›zM¿?  0• u$€bvë˚¿?  %Ø u$€b’≈{¿?  	ÙHÀu$€œ¶~9¿?  √√‚Àu$€ÀW∏õñ¿?  Ék|Ãu$€ÅV¿?  ÆÕu$€ç'Ç8¿?  ‚ØÕu$€DÏ]ÕK¿?  u<IŒu$€¸ztŸû¿?  z„Œu$€€˜MÏ¿?  å|œu$€wûxŒ¿?  ™[–u$€ŸhÔB)¿?  ∞–u$€‘\wa¿?   ≥I—u$€¬ª¿?  -_„—u$€*Äsê!¿?  ô-}“u$€GV~å¿?  ÷”u$€·+Ÿ±¿?  ~∞”u$€xz’¿?  Â%J‘u$€	ªÕ¿m¿?  ‰ı„‘u$€u¿?  ≈√}’u$€oaÇø¿?  ªì÷u$€-IT^·¿?  ›;±÷u$€Áf…-˜¿?  Ê	K◊u$€VÑˆEù¿?  [ÿ‰◊u$€Òõ¬J¿?  ˘q~ÿu$€¶≠[NS¿?  π@Ÿu$€´¯õö¿?  3≤Ÿu$€OﬁˆN¿?  /ﬂK⁄u$€á÷‘√·¿?  §ÆÂ⁄u$€vƒ!H¿?  £/€u$€Â·N3Ó¿?  8˛‹u$€	≤TÕb¿?  öÃ≤‹u$€ìX≠ß±¿?  (úL›u$€â@ı"¿?  `jÊ›u$€-·ÈV¿?  ë9Äﬁu$€[(ôú⁄¿?  v	ﬂu$€¢i‰ND¿?  ¿◊≥ﬂu$€ìE÷¿?  ¶M‡u$€=‡p’+¿?  ØuÁ‡u$€ïí/≤Æ¿?  „ˆÄ·u$€W˜~Yê¿?  Ø∆‚u$€∑2ó
+‡¿?  ›î¥‚u$€Ù¸i£:¿?  Æ<N„u$€Ù[*%∫¿?  PË„u$€ûˆJ˘¿?  Ó¥Å‰u$€&Y‚\¿?  ßÇÂu$€3s‹Ñ÷¿?  \*µÂu$€é¢j^¿?  ˘NÊu$€⁄Ô?Ëè¿?  •ËÊu$€úTèèq ¿?  á'ÇÁu$€(äF-É ¿?  "ßËu$€H›ŒæÚ ¿?  $vµËu$€…ko≤!¿?  }˜NÈu$€™e∆6"¿?  Í≈ËÈu$€´ƒÜ∏É"¿?  UñÇÍu$€m ﬁÂ"¿?  x<Îu$€°è¢s#¿?  }‰µÎu$€ê˘€˘Ÿ#¿?  ô¥OÏu$€vp∞71$¿?  *VÈÏu$€π4~·ï$¿?  †˝ÇÌu$€¨üHA%¿?  —ÃÓu$€V:i+@%¿?  ˚M∂Óu$€∞{ÜÀÖ%¿?  ˆOÔu$€´¬∞&¿?  èùÈÔu$€}Ê¨O9&¿?  ŒlÉu$€ç»¡∂è&¿?  oÒu$€kEõ„‹&¿?  m„∂Òu$€Q]
+Y'¿?  gäPÚu$€¿Ÿú9⁄'¿?  ZÍÚu$€Œ%Ç'¿?  '⁄ÉÛu$€åV§xK(¿?  õÇÙu$€/˜…QÄ(¿?  ‹Q∑Ùu$€≥£'≈(¿?  ˘!Qıu$€©ãoÉ5)¿?  ,ÔÍıu$€°Øh)¿?  ‰æÑˆu$€œIîbÏ)¿?  é˜u$€lÍ<*¿?  ]∏˜u$€<y¢5P*¿?  ,R¯u$€ç1f…*¿?  ^˙Î¯u$€ÿÔ.º7+¿?  ¥…Ö˘u$€.¥ŒSx+¿?  ¥q˙u$€=ÑLç+¿?  ”@π˙u$€€ÀlFº+¿?  ûS˚u$€+£ëœ+¿?  œﬂÏ˚u$€Ôπ]y⁄+¿?  ØÜ¸u$€ã—)~B,¿?  i| ˝u$€„¶ÿ,¿?  ±˝π˝u$€¢<òπe,¿?  ﬂ•S˛u$€Ì˙`t‘,¿?  étÌ˛u$€+Tí–Ò,¿?  âCáˇu$€)≈3/-¿?  0Ï  v$€A0¢HR-¿?  ﬁí∫ v$€@°CÖè-¿?  ‚bTv$€(ïïÀÎ-¿?  Ñ
+Óv$€˛)U¢Ï-¿?  Å≥áv$€<ÉÜ˛	.¿?  Ç!v$€>q•CL.¿?  Jªv$€≈öÄñ.¿?  f´Tv$€E `÷’.¿?  ûyÓv$€pîaÅT/¿?  d˙áv$€Àd›‰\/¿?   {!v$€∏d˜Ä/¿?  ÔIªv$€Ëô®ÔF0¿?  lUv$€Cj$SO0¿?  }ËÓv$€ˇ<t0¿?  Ÿ∂àv$€Öüì9Ò0¿?  ßÖ"	v$€àBˆ0¿?  Uº	v$€LÒ61¿?  ≠#V
+v$€oÅ≈è1¿?  õ§Ô
+v$€v{ˇ’ô1¿?  Mâv$€[Ú”Ò1¿?  O#v$€bKè¶z2¿?  ƒºv$€…!‚ÊT2¿?  VìVv$€ßûª¢2¿?  ∫av$€õò‰6–2¿?  Œ
+äv$€˝b[´‚2¿?  Õc#v$€nÁÜK3¿?  üΩºv$€Ñå6},3¿?  k>Vv$€´Ÿπ¶3¿?  ~ÊÔv$€DgﬂÀ3¿?  Ô¥âv$€K˝a’3¿?  |]#v$€0t6.-4¿?  `Ωv$€RVÉ_4¿?  O‘Vv$€Rµ›ﬂ4¿?  Ó£v$€/DòÏÈ4¿?  ‹Käv$€@µ5¿?  Û#v$€2ÂCP5¿?  ÙsΩv$€õ‰G¸ä5¿?  ¬BWv$€Ss^ﬁ5¿?  ùÒv$€+ˆ<$!6¿?  >·äv$€x1ÉÁî6¿?  b$v$€˙Ô¡kó6¿?  Á0æv$€ÿ€¡„6¿?  Ù±Wv$€˜—Â7¿?  1ÄÒv$€àáã7¿?  ÀOãv$€Ôßkíƒ7¿?  ‰˜$v$€‡$≠Ì7¿?  Ωüæv$€˘*8¿?  8!Xv$€ÔeÏï√8¿?  °Òv$€X*^‡8¿?  ®"ãv$€ *ËQL9¿?  ¶¢$v$€°ºè£9¿?  Q#æv$€Zw=‚°9¿?  °ÀWv$€RÓ„’9¿?  ãöÒv$€FGÕ≤Ç:¿?  eiã v$€w¨Ìã:¿?  v%!v$€Â€¿Ô:¿?  œëæ!v$€hàtâ4;¿?  8aX"v$€÷∑Ç\ò;¿?  F	Ú"v$€¯ôi± ;¿?  @±ã#v$€Ωvﬂ1<¿?  ºX%$v$€ˇÚ$DT<¿?  ‹'ø$v$€I±Ì˛¬<¿?  »®X%v$€0∑  ›<¿?  ﬂwÚ%v$€’Ê§ú‘<¿?  Ö‘ã&v$€W§¢V=¿?  [£%'v$€+
+∂î=¿?  Zrø'v$€K]çG>¿?  =Y(v$€∫˙›*>¿?  7¬Ú(v$€·h}Ä§>¿?  å)v$€º?¿?  gÎ%*v$€¬”uÚ3?¿?  #∫ø*v$€gb∫´?¿?  ˜âY+v$€.t%’?¿?  gXÛ+v$€$\mjE@¿?  ˙ˇå,v$€ü ±›=@¿?  ëœ&-v$€∆m4Ä∑@¿?  Ôv¿-v$€¬∂w≤@¿?  b(Z.v$€~¸Jå
+A¿?  Ä®Û.v$€oyˆ¶3A¿?  8yç/v$€Ø¿FHìA¿?  _˘&0v$€1ﬁENB¿?  Ì»¿0v$€ˆY
+ÌA¿?  ]IZ1v$€‹≈˚B¿?  7Ù1v$€%ÿnqCB¿?  Çùç2v$€gÆ÷eB¿?  Pl'3v$€ÑÑ(_–B¿?  &;¡3v$€;¥~È£B¿?  (
+[4v$€LÑ≤ï<C¿?  ÚÿÙ4v$€8ñ¡bC¿?  ÎÅé5v$€äAªûC¿?  ßP(6v$€§6qrøC¿?  •¬6v$€:„†)‡C¿?  Ì[7v$€· DD¿?  5Ωı7v$€∆wIqD¿?  Uåè8v$€µ•XD¿?  ⁄Z)9v$€à}ßn”D¿?  Q√9v$€(°O?E¿?  É´\:v$€0‹ÍD¿?   zˆ:v$€É–ã$ãE¿?  ùIê;v$€°´cKE¿?  "Ò)<v$€YeK˚ãE¿?  …ø√<v$€√‹≈ÍE¿?  ;B]=v$€hG`b‚E¿?  4¬ˆ=v$€∫ˇ#.[F¿?  Åkê>v$€Ãˇı7F¿?  	*?v$€nΩ1©F¿?  D·√?v$€Pg˚F¿?  ∞]@v$€ø(A°G¿?  ∫X˜@v$€:LEtH¿?   ëAv$€dáBH¿?  ÉŒ*Bv$€^KéH¿?  ?vƒBv$€ˆ∂ô
+ÒH¿?  +G^Cv$€∂Œ	ÎI¿?  åÏ˜Cv$€`i*’OI¿?  ,nëDv$€3Ål£KI¿?  ]+Ev$€π™GuïI¿?  RÂƒEv$€Äº≤føI¿?  jç^Fv$€Ï˝°Ù‡I¿?  .\¯Fv$€õ§û™ÁI¿?  ±íGv$€üÄ‹4lJ¿?  ùÑ+Hv$€i‚‡I¿?  k-≈Hv$€	3mˇ J¿?  ∆‘^Iv$€ìzXöJ¿?  FV¯Iv$€⁄\êàÑJ¿?  0%íJv$€Åz3jæJ¿?  {Ù+Kv$€dÈb”J¿?  œõ≈Kv$€Õ«ZËÔJ¿?  ÄC_Lv$€„£j`PK¿?  ‡Î¯Lv$€!˝õºmK¿?  Î∫íMv$€Ÿ,ÚFAK¿?  ßâ,Nv$€jÕE2öK¿?  t1∆Nv$€ Õ˝z*L¿?  
+Ÿ_Ov$€ÖÚ˜AL¿?  &Z˘Ov$€√m#T_L¿?  )ìPv$€Õ+çNL¿?  ı˜,Qv$€`NäL¿?  v«∆Qv$€,ÏŒL¿?  …ñ`Rv$€∞=≥$@M¿?  O?˙Rv$€§7‹GnM¿?  ËîSv$€Ωêi»”M¿?  Ÿ‹-Tv$€sÙ¯ΩM¿?  r]«Tv$€m¡˜£M¿?  `,aUv$€Æl’d|N¿?  ∆”˙Uv$€häJ4íN¿?  _£îVv$€ÊÀ∞èN¿?  <K.Wv$€É—ˆ˘9O¿?  rÛ«Wv$€‡èë¢ÑO¿?  y¬aXv$€í≥aêO¿?  ë˚Xv$€√GõôO¿?  õïYv$€È∆O¿?  zπ.Zv$€VßπÀ4P¿?  â»Zv$€≥M‡åP¿?  jWb[v$€ßq≈P¿?  4 ¸[v$€Ê∏ÆÛ P¿?  ?Åï\v$€-˙˘•4Q¿?  Ø)/]v$€Z‚∑◊8Q¿?  í˜»]v$€ì/héQ¿?  P*b^v$€}ÿ¡wQ¿?  _˘˚^v$€FSá&öQ¿?  ï«ï_v$€ºÔÕ Q¿?  p/`v$€ıXD^ R¿?  (…`v$€ÔΩ	œïR¿?  *íbav$€;+≥RR¿?  ?b¸av$€úvÁ?ZR¿?  ¢0ñbv$€i=◊R¿?  ¯˛/cv$€Ò´(ÿR¿?  fß…cv$€]Ì¢˘R¿?  ÈOcdv$€TdæÕ,S¿?  –¸dv$€=XâS¿?  $Pñev$€Ö(∫âµS¿?  B 0fv$€.øx´S¿?  cÓ…fv$€s(ËõŸS¿?  ˝ñcgv$€qôâÿT¿?  ‚>˝gv$€sá®YT¿?  zóhv$€Ú'*÷T¿?  ûg0iv$€≥Œ¯æ∏T¿?  {6 iv$€"˜ºT¿?  djv$€aÊñ±¸T¿?  ´’˝jv$€-cûmU¿?  Uókv$€Ôh-–U¿?  '$1lv$€*E·iËU¿?  /Õ lv$€¯ØÓõV¿?  `õdmv$€QídbV¿?  @C˛mv$€dÒˆ{ΩV¿?  _ƒónv$€¿Øë$W¿?  ﬁk1ov$€≥\ÑsW¿?  ,Àov$€¶&fb_W¿?  >ïdpv$€I«ã;îW¿?  øc˛pv$€ÅÖÇ'X¿?  ƒ‰óqv$€WyaßX¿?  Ïå1rv$€¢Ø ÕX¿?  „[Àrv$€|7'@^Y¿?  ≠‹dsv$€áÆüYmY¿?  FÑ˛sv$€Ω~w·ΩY¿?  ≠,òtv$€⁄≥BÏßZ¿?  º˚1uv$€ifwíæZ¿?  ı Àuv$€$rß[¿?  côevv$€£ç§ì[¿?  ˇvv$€oèî„\¿?  }Èòwv$€p}≥(G\¿?  éí2xv$€}ôÉ˚\¿?  ¥_Ãxv$€Te)£€\¿?  Úfyv$€ß¥ñ]¿?  ◊ˇyv$€ãÛÅ.+^¿?  q¶ôzv$€ı•˘â^¿?  kM3{v$€©∑´¸◊^¿?  tÕ{v$€!^2ÈJ_¿?  ŸÎf|v$€≈]Dˇ_¿?  ™l }v$€≠Qjä[`¿?  ö}v$€ƒ-zº`¿?  ≠ï3~v$€$»R5ãa¿?  )‡Ã~v$€⁄hJ¸õa¿?  afv$€rbYz~b¿?  Ãıˇv$€ó¡Ω◊µb¿?  ﬂúôÄv$€˘ÍÙÕGc¿?  F3Åv$€.,ní’c¿?  …ÕÅv$€Â∫Ñû(d¿?  ”îfÇv$€1d–d¿?  ™= Év$€òú`3e¿?  îöÉv$€9Ë≤‚e¿?  Ω≥3Ñv$€ë—¶èef¿?  ÉÕÑv$€@x£Elf¿?  DRgÖv$€ }º°:g¿?  Æ Üv$€ıGΩLπg¿?  oÔöÜv$€òË‚%Óg¿?  Éó4áv$€W–¥ƒ h¿?  4gŒáv$€·vüi¿?  è5hàv$€mÖæ™i¿?  âv$€àR1ÑRj¿?  ]≠õâv$€¢´æ∏j¿?  ˇ{5äv$€d±M*k¿?  a¸Œäv$€Çuw¯∆k¿?  ﬁÀhãv$€§ÖÀ*l¿?  Ûöåv$€yº‚∂l¿?  ‘Búåv$€o§«J'm¿?  Í5çv$€'3ﬁVzm¿?  ìœçv$€xJb§rn¿?  +;iév$€Ç¡⁄ΩÅn¿?  |‚èv$€zóAk4o¿?  ∑âúèv$€·ÃT-éo¿?  Å26êv$€æ∫œñp¿?  ∞Ÿœêv$€Í9éƒp¿?  °Åiëv$€*∫?(9q¿?  Ïív$€±„˙Çq¿?  A´úív$€òH}r¿?  çV6ìv$€é0VÂår¿?  ·!–ìv$€jèrãTs¿?  _Àiîv$€
+≥\Ñs¿?  Ûqïv$€˛2t¿?  Iùïv$€Ó˘PXòt¿?  È6ñv$€t#,*‚t¿?  Yê–ñv$€3˛»æu¿?  ˆjóv$€–Èiv¿?  Iòv$€œ±Õ◊v¿?  9ƒúòv$€‡Qæ˚>w¿?  m6ôv$€,˛•˚Ôw¿?  ¸Ìœôv$€)‡Ëtjx¿?  Õñiöv$€rSly¿?  ïõv$€ﬂ>a?zy¿?  ‹óúõv$€+ÎH?+z¿?  i6úv$€Õ¸Uùz¿?  å–úv$€{ÆG·z¿?  æ∂iùv$€ ûÄÅ{¿?  ü7ûv$€B‰ô<
+|¿?  Bﬂúûv$€7=É·∑|¿?  |Æ6üv$€ı≈î˛}¿?  ∏U–üv$€Pı–„ú}¿?  Ü˛i†v$€ıà,-~¿?  Õ°v$€d‰V˜~¿?  nuù°v$€¢ ’4î¿?  7¢v$€ïL©¶¿?  ãù–¢v$€ˇÁ0_^Ä¿?  ÖFj£v$€ŸX.¿„Ä¿?  $§v$€¸iHÅ¿?  :ïù§v$€õΩ}g≈Å¿?  ´d7•v$€"FªéÇ¿?  '4—•v$€vöçÇ¿?  ûk¶v$€Î§cszÉ¿?  m“ßv$€F‘üXÑ¿?  Ãyûßv$€k3∂9Ñ¿?  !8®v$€Ûªü	Ö¿?  ¢—®v$€jb&ˆuÖ¿?  Jk©v$€∏ùlπÈÖ¿?  U™v$€uóÑÜ¿?  œ¡û™v$€uˆﬂîá¿?  ™D8´v$€ÓÊá¿?  Ò“´v$€œı}8Hà¿?  ∂‡k¨v$€1¿Ù¨Zà¿?  â≠v$€èlÆöÁà¿?  	ü≠v$€ÒïÂêyâ¿?  Ãÿ8Æv$€ˇËõ4ä¿?  ÊY“Æv$€ı–„ú}ä¿?  ,(lØv$€&ïﬂXã¿?  #˜∞v$€\e∑‡Vã¿?  ˆƒü∞v$€D ™cã¿?  ï9±v$€‚^Ùp]å¿?   d”±v$€,Ω+Ãå¿?  wÂl≤v$€Z√˚`œç¿?  ¥≥v$€Ÿc}^Lé¿?  â\†≥v$€•‡ÑùΩé¿?  ?*:¥v$€˚§$5˛é¿?  A˘”¥v$€ü§
+ê≤è¿?  Æ»mµv$€=9Tùê¿?  ó∂v$€0§˝äê¿?  ‹>°∂v$€–«∆Õ∫ê¿?  Z;∑v$€0bü äë¿?  ç‘∑v$€†Ã0í¿?  (n∏v$€ ª‰…í¿?  2‹πv$€
+ëeì¿?  €]°πv$€öCR%ì¿?  ˝·:∫v$€ƒl8#î¿?  %±‘∫v$€Âøõ…íî¿?  |Ynªv$€™B®˜˘î¿?  ºv$€„è˝áOï¿?  a®°ºv$€Ák;‘ï¿?  DQ;Ωv$€Lkñ¿?  d ’Ωv$€¡;˘Ùÿñ¿?  7Ônæv$€ú;U!ó¿?  ;Iøv$€˘X∞CÎó¿?  îÒ°øv$€∑·¡`Hò¿?  Òø;¿v$€ÖLË‰˚ò¿?  Ãè’¿v$€¨ôkáuô¿?  ™6o¡v$€G±7å›ô¿?  R	¬v$€ı»’~!ö¿?  W≠¢¬v$€úE9‚⁄ö¿?  "}<√v$€ÊËÒ{õ¿?  $÷√v$€Êb¬…õ¿?  Ùoƒv$€q	˘ú¿?  ∑õ	≈v$€Äßˇú¿?  M¯¢≈v$€ıs˘≈[ù¿?  À√<∆v$€dë&ﬁû¿?  ãí÷∆v$€#8˚^û¿?  u;p«v$€äOKΩ∏û¿?  î
+
+»v$€RO’Û$ü¿?   ±£»v$€¥xÍ∂ü¿?  ÏÄ=…v$€/úﬂ.†¿?  ÜP◊…v$€§≈√ú†¿?  Pq v$€à≠è=1°¿?  †Ì
+Àv$€–¡DÕ°¿?  √n§Àv$€í‚àZ?¢¿?  ◊=>Ãv$€ _=ì¢¿?  Ê◊Ãv$€3eÒ¨Ó¢¿?  .µqÕv$€j#ËyÅ£¿?  ´\Œv$€¶"∫§¿?  ≠ﬂ§Œv$€hdÎt{§¿?  'á>œv$€+˘ÿ]†§¿?  fTÿœv$€a(qgp•¿?  $r–v$€jãΩº•¿?  ˆÚ—v$€é?QŸ∞¶¿?  ∞¡•—v$€@cÀóº¶¿?  j?“v$€`∂S),ß¿?  +Ÿ“v$€«HQ¬ß¿?  \·r”v$€Cn+b}®¿?  ◊Æ‘v$€ÌLLº®¿?  ∂~¶‘v$€`£ˆlg©¿?  Â&@’v$€Æﬁ<0€©¿?  €ÙŸ’v$€ëÕ˙9™¿?  ∏ƒs÷v$€bOñµ®™¿?  Dl◊v$€‹„;Á]´¿?  Éß◊v$€˙H•3ã´¿?  ‚º@ÿv$€EnÓ˘´¿?  d⁄ÿv$€£≥'‹Ü¨¿?  r3tŸv$€b<9˘„¨¿?  â⁄v$€À}[≠¿?  —ß⁄v$€8èy”„≠¿?  √yA€v$€N;Æ¿?  ÜH€€v$€ÕI¡Æ¿?  Rt‹v$€ ÌM¬;Ø¿?  dø›v$€lˇÿ≠Ø¿?  )®›v$€•´*ÍÇ∞¿?  Ñ¿Aﬁv$€ŒáPø∞¿?  œè€ﬁv$€âì†d±¿?  uﬂv$€ÈŒ∏g±¿?  ¥∏‡v$€Ú∂“k≥±¿?  ga®‡v$€˛~1[≤¿?  ¸B·v$€ÍÎ˘öÂ≤¿?  ˇ:€·v$€¿ﬂyÛe≥¿?  éºt‚v$€q”Up.¥¿?  bd„v$€FŸ∂Él¥¿?  ÿ3®„v$€ﬂdCí¥¿?  Ò≥A‰v$€PØÔ˚¥¿?  4\€‰v$€) ÌÄµ¿?  XuÂv$€êÛ)∂¿?  “Êv$€¥Ñ∆]Œ∂¿?  ôS®Êv$€ª~¡nÿ∂¿?  œ˚AÁv$€ërA«X∑¿?  ”|€Áv$€òÀ¸Y‚∑¿?  ﬂ$uËv$€ı>P∏¿?  _~Èv$€Å"æ∏¿?  µ&®Èv$€>¬{Xπ¿?  ÖŒAÍv$€Y ÆøÄπ¿?  ßv€Ív$€¬#‡∆∫¿?  SEuÎv$€_)À«∫¿?  €Ïv$€sºCÂ∫¿?  G„®Ïv$€ø√£Cñª¿?  >ãBÌv$€˜Åö)º¿?  ,3‹Ìv$€∞ü‡>º¿?  òvÓv$€4´-+Ω¿?  ™Ôv$€•Ñ`UΩ¿?  u*©Ôv$€…'ø†‡Ω¿?  0“Bv$€$W˚Öhæ¿?  €¢‹v$€ΩÄ®Eéæ¿?  Ù”uÒv$€p„Öø¿?  ˇ£Úv$€ih®ˆéø¿?  °K©Úv$€∑£Óπ¿¿?  ACÛv$€/Î¥$ˆø¿?  ∆Ë‹Ûv$€Áÿã≤»¿¿?  ÕêvÙv$€XÖé1¡¿?  ]`ıv$€+¸ﬁ¨¡¿?  ©/™ıv$€‹ÔıZu¬¿?  *˛Cˆv$€7¿qæ}¬¿?  ≠¶›ˆv$€ﬂÀ3Â˘¬¿?   *w˜v$€ﬁõï£∂√¿?  %“¯v$€ÄNú7©√¿?  Êü™¯v$€‡Ëtjxƒ¿?  -HD˘v$€‚÷ìØ∫ƒ¿?  πﬁ˘v$€,πä≈¿?  ‹òw˙v$€!ÓE◊≈¿?  g˚v$€¸Lbµû∆¿?  √5´˚v$€Ÿ€ù©∆¿?  ›ﬁD¸v$€Jà®x«¿?  .≠ﬁ¸v$€≈´¨mä«¿?  ≤{x˝v$€∏wÕı«¿?  K˛v$€i
+SJæ»¿?  ¨˛v$€íÊ4∞˙»¿?  ñ¬Eˇv$€HÊÏ¯ä…¿?  ëﬂˇv$€/Ï˙§…¿?  ˚8y w$€2»]Ñ) ¿?  vw$€ﬁPù≥™ ¿?  l◊¨w$€≈V–¥ƒ ¿?  Fw$€q>–e≈À¿?  ”&‡w$€?J6h˘À¿?  dıyw$€ê˙3rÃ¿?  ?ùw$€|s…Ç”Ã¿?  Ík≠w$€¿7ó,8Õ¿?  WÌFw$€hCYS¥Õ¿?  ÂG‡w$€@∆7o˜Õ¿?  >zw$€¬„6uyŒ¿?  ›‰w$€SÑä`“Œ¿?  íe≠w$€3ÔÇ“aœ¿?  rGw$€‘qÎ$–¿?  !∂‡w$€ÔY◊h9–¿?  y^z	w$€5õ"£–¿?  :
+w$€IüV—¿?  h’≠
+w$€√πv—¿?  ª|Gw$€	–•n“¿?  W%·w$€´·lÑè“¿?  "§zw$€À4ıˇ“¿?  è$w$€Ó˚Øs”¿?  À≠w$€£î≥¡”¿?  •õGw$€F¢Ü%‘¿?  õB·w$€‘9PÒ…‘¿?  ÒÍzw$€jE@*j’¿?  Lπw$€Ö-,ní’¿?  ∆âÆw$€7!ÎZ÷¿?  YHw$€”«2≥Ö÷¿?  ëˇ·w$€ä«Í˚◊¿?  Y{w$€\>ÌKë◊¿?  Ó(w$€Y 0≈ÿ¿?  ƒ˜Æw$€ÁC®_ÿ¿?  xHw$€Ç[“¨«ÿ¿?  Øß·w$€”ñx@Ÿ¿?  àu{w$€“Ñ7µ}Ÿ¿?  }˜w$€S¢6ªˇŸ¿?  ÈPÆw$€_ŒQ⁄¿?  œHw$€·$Õ”⁄¿?  ◊†·w$€ä0èFO€¿?  U%{w$€[3”‹¿?  ëÙw$€µYPsM‹¿?  fúÆw$€5â04ç‹¿?  öˆGw$€¶5ºˆ‹¿?  ≈·w$€W)òåæ›¿?  {w$€#¶üÀ/ﬁ¿?  Ö∆w$€1öïÌCﬁ¿?  ⁄nÆw$€éFƒﬁ¿?  ï=Hw$€G4&i£ﬂ¿?  {‚w$€«c*„ﬂ¿?  v€{w$€gáÆ˙‡¿?  =\w$€NÏ°}¨‡¿?  °+Øw$€ﬁ˝ñ•B·¿?  ﬁ”H w$€{§¡mm·¿?  ¸{‚ w$€™Ÿ^f3‚¿?  ?K|!w$€≥¡xº‚¿?  vÚ"w$€Zﬂûπ‚¿?  yöØ"w$€¬N•U„¿?  hI#w$€Zùú°∏„¿?  ∑t‚#w$€.£˝¥ˆ„¿?  /D|$w$€£Ãôd‰¿?  è%w$€M∆Á#Â¿?  f‚Ø%w$€ëäµÆáÂ¿?  ∂±I&w$€]®¸kyÂ¿?  RÄ„&w$€[‡<Ê¿?  ((}'w$€'ıeißÊ¿?  èœ(w$€|*ß=%Á¿?  Tü∞(w$€âù_9Á¿?  ¨FJ)w$€TF€ÁÁ¿?  Ô„)w$€KÉÏË¿?  1Ω}*w$€àMøüuË¿?  çe+w$€¬˘‘±JÈ¿?  4±+w$€[#ÇqpÈ¿?  Ú‹J,w$€]°∂≤È¿?  ∏]‰,w$€.˘DCkÍ¿?  ~-w$€º&øÍ¿?  ≠.w$€ã†m5Î¿?  ±|±.w$€ 4qaìÎ¿?  ∆KK/w$€ÿ¬ámÊÎ¿?  RÂ/w$€ÿ!HÔeÏ¿?  :©~0w$€÷íÈ+£Ï¿?  .1w$€Ç)[$Ì¿?  #á±1w$€Ë¡›YªÌ¿?  ®/K2w$€>Ü}Ò˚Ì¿?  ™÷‰2w$€WIÓ¿?  K1~3w$€QD–‚÷Ó¿?  ÿ4w$€¬[æ?Ô¿?  ‡3±4w$€JV’ÀÔ¿?  œK5w$€X¸K˜ﬂÔ¿?  }—‰5w$€Àñˆã¿?  ÎP~6w$€!∫V1KÒ¿?  ƒÉ7w$€àÔiÛ§Ò¿?  J±7w$€U˚œıÿÒ¿?  è”J8w$€Ñ%ZÚ¿?  £‰8w$€¬õzÚ¿?  ôq~9w$€]≥K
+‚Ú¿?  ê@:w$€1müüÛ¿?  ¯Ë±:w$€ñ_a∑Û¿?  U∑K;w$€‰˘ga™Ù¿?  _Â;w$€IA\ﬁ¡Ù¿?  â‡~<w$€E5Ä˙Ù¿?  êa=w$€•pò√Iı¿?  ï±=w$€Q˘◊Ú ı¿?  L=K>w$€Ÿ“	Wˆ¿?  £‰‰>w$€ˇo6géˆ¿?  ﬁ=~?w$€’Õ≈ﬂˆ¿?  '@w$€5üŒp^˜¿?  Ú‹±@w$€.î·”˜¿?  6]KAw$€W‡uG¯¿?  Ñ›‰Aw$€,Eó‹Õ¯¿?  (≠~Bw$€±ÄSi’¯¿?  ≈{Cw$€—”€˙D˘¿?  †#≤Cw$€Ë>J6h˘¿?  ÛKDw$€…©B®˜˘¿?  ˚¡ÂDw$€–˛:Å˙¿?  Ã6Ew$€◊[πÕ
+˚¿?  ÜﬁFw$€!Çày˚¿?  -á≤Fw$€EÍá"Ó˚¿?  DVLGw$€Ë5,¸¿?  Œ˝ÂGw$€vÆÉﬁv¸¿?  ®ÃHw$€j®¨•¸¿?  ãtIw$€Ä„|˚Ñ˝¿?  ±≥Iw$€I„2Ò˝¿?  3≈LJw$€$„bV9˛¿?  %mÊJw$€k$Æ£˛¿?  uÒKw$€4$8?ˇ¿?  "¿Lw$€y÷$.∂ˇ¿?  ›g≥Lw$€õ∏ÉËˇ¿?  MﬂLMw$€ Sàëo ¡?  °ÊMw$€*  ´~ ¡?  ‰sNw$€‹Ω‹'G¡?  }FOw$€Ñd¡?  ¥ü≤Ow$€v¸¡?  ónLPw$€§'‡2¡?  ?…ÂPw$€~ç$A∏¡?  qQw$€ºÊUù’¡?  , Rw$€√?0_¡?  ∑J≤Rw$€ﬂŸ√¡?  eÃKSw$€ÃÜÎ+¡?  •tÂSw$€0?Å¡¡?  8Tw$€≠Ò„y∫¡?  _vUw$€º”¯‡¡?  U–±Uw$€Dìz¡?  0xKVw$€1\¬F˛¡?  ÉFÂVw$€{ãm¡?  ÜÔ~Ww$€QZÌ¡?  •ΩXw$€QZÌ¡?  mç≤Xw$€ÑaeŸ8¡?  1LYw$€+ﬁ»<Ú¡?  $›ÂYw$€n¢ñÊV¡?  ¨Zw$€¸≈l…™¡?  òS[w$€fx˝ì		¡?  …"≥[w$€£B–,d	¡?  œ L\w$€˛Lêl	¡?  KÊ\w$€rﬁˇ«	¡?  åÛ]w$€=À=n	
+¡?  ·õ^w$€Œ Q€·
+¡?  $≥^w$€é‚¡ª¡?  9ƒL_w$€áGá,w¡?  0ìÊ_w$€K‹tú¡?  +bÄ`w$€K;5ó¡?  1aw$€+Gmá+¡?  Èˇ≥aw$€îjüé«¡?  ÛgMbw$€˚ü≤P!¡?  œ7Ábw$€ÿç-∫´¡?  MëÄcw$€NFïa‹¡?  ,dw$€Ω≈√{¡?  êπ≥dw$€Ñu-k¨¡?  ^aMew$€+ì–LÊ¡?  <‚Êew$€Õ§óbX¡?  ><Äfw$€ï§!ôƒ¡?  Qºgw$€≤z,"/¡?  ûd≥gw$€œP7´ô¡?  ≠óLhw$€•D∑¡?  DgÊhw$€lV"ıC¡?  EÁiw$€òØÅcÖ¡?  …jw$€∂ÎØ≤¡?  ◊`≤jw$€Üp˜(¡?  lÈKkw$€Hˇã¡?  ¬\Âkw$€Ñd¡?  E∏~lw$€œúöpT¡?  Çmw$€v∫=Ré¡?  ]Œ≤mw$€Ó`ƒ>¡?  ≠\Lnw$€Á≈âØv¡?  è4Ânw$€]~ÒVß¡?  ∏Éow$€⁄èëa¡?  È
+pw$€≤Û¨§¡?  h–≥pw$€n≠ÂÑø¡?  ’€Lqw$€j  :w¡?  ¶°Âqw$€ ‹!jG¡?  L∑~rw$€
+É2ç&¡?  Ã&sw$€Èˇ∫s¡?  `Ä±sw$€áîU«‡¡?  %⁄Jtw$€:∏œÖÏ¡?  ‚Î„tw$€)ÕÊq¡?  ﬁ°}uw$€ön#Ø¡?  {*vw$€ˇ3î$¡?  ü5±vw$€>Rép¡?  êJww$€Yô:Ÿ¡?  Øu„ww$€ÿ9º÷î¡?  jﬂ}xw$€≈9ÍË∏¡?  ö9yw$€:cÛÃ&¡?  5–Øyw$€‰˝∑e¡?  äJzw$€a∞vo†¡?  Â¶‰zw$€á˝˘¡?  w'~{w$€˙8‰∞E¡?  g®|w$€ïP∞µ≠¡?  ‡±|w$€µ£8G¡?  ∏øI}w$€î tj¡?  6§‚}w$€O,¶à¬¡?  e%|~w$€,^—R¡?  »Ûw$€Zaü•–¡?  ÙNØw$€V‰!ùÀ¡?  .ıHÄw$€ìµ∑•¡?  T‚Äw$€ﬁ	ä¡?  Z|Åw$€æ◊µb$ ¡?  ñÓÇw$€è`ôm] ¡?  [ΩØÇw$€|`«Å ¡?  ÔHÉw$€ı>ü!¡?  ¨p‚Éw$€3ø?Jë!¡?  * {Ñw$€lï⁄Ê!¡?  hrÖw$€ëk˘7"¡?  ØÖw$€Ò¶Èm"¡?  ÏËHÜw$€^G¡¯#¡?  Oë‚Üw$€S–Hﬂˇ"¡?  ì9|áw$€e†|ãò#¡?  ıàw$€#∑À#$¡?  »ØØàw$€~X ç}$¡?  y
+Iâw$€†:±‚Ø$¡?  I±‚âw$€∑ä˝$¡?  hZ|äw$€D:ó=d%¡?  u(ãw$€N–ÿÚ%¡?  µ˜Øãw$€pÚ∂-%&¡?  LüIåw$€Uiãk|&¡?  †o„åw$€£E≠p&¡?  TÔ|çw$€ê§ˇ@'¡?  Çøéw$€∑ÒÇ„ç'¡?  Æ?∞éw$€"§ÆÏ'¡?  *Jèw$€Ωªﬂ≤T(¡?  è›„èw$€nP˚≠ù(¡?  ¢Ö}êw$€åµd˙ (¡?  ﬁ,ëw$€&ﬂ∫(¡?  Æ∞ëw$€+JÆ8)¡?  VJíw$€⁄Ok?æ)¡?  ∂˝„íw$€·®&“G*¡?  e¶}ìw$€4HaÉ*¡?  —uîw$€{1îÌ*¡?  Ñ±îw$€~ÆÚ*¡?  íwJïw$€ªx‰¥L+¡?  ïE‰ïw$€ÍN¡+ì+¡?  ›~ñw$€∏πÁØF,¡?  %ïów$€Pıu**,¡?  ◊<±ów$€Æ°/∑,¡?  œ‰Jòw$€zøv’®,¡?  C¥‰òw$€≥Ãe˛,¡?  ¡É~ôw$€Bﬂ'X-¡?  ë›öw$€Ù≤‹à›-¡?  ˛Ø±öw$€õ–j.¡?  {Kõw$€ß5…h.¡?  ëIÂõw$€÷∆ÿ	/¡?  ¬úw$€∏¶äÛÅ.¡?  \Áùw$€ƒ0p/¡?  !∑≤ùw$€ÏFƒ9è/¡?  `ÎKûw$€’6j*0¡?  ∑CÂûw$€ï±F‚ä0¡?  ·ù~üw$€°ﬁ@‹0¡?  Xm†w$€^§´œ0¡?  ≤†w$€€c3—11¡?  ıîK°w$€‡Œœy1¡?  …‰°w$€"*ûƒ1¡?  ÆH~¢w$€>{â2¡?  i£w$€d⁄Ìi=2¡?  IÊ±£w$€_Œûu2¡?  µK§w$€_-“ı2¡?  ”ÑÂ§w$€ﬂ\≤‡43¡?   ,•w$€mÄà√à3¡?  …‘¶w$€^˝3ﬁ±3¡?  û£≤¶w$€ﬂªrb¥3¡?  ËrLßw$€qªÜœå4¡?  "AÊßw$€Ø∏+™4¡?  ZÄ®w$€,«‰‰4¡?  “ﬂ©w$€›[6ﬂ-5¡?  ÷à≥©w$€hëÌ|?5¡?  3VM™w$€%ã†÷Ÿ5¡?  á%Á™w$€eGO6¡?  öÕÄ´w$€›∑‚,6¡?  Yú¨w$€ΩÑØTº6¡?  îl¥¨w$€a%’-Ò6¡?  ÏM≠w$€2Æ∏8*7¡?  sîÁ≠w$€6 Uá7¡?  4=ÅÆw$€äRÁˆ7¡?  Øw$€˛ 8¡?  œå¥Øw$€L≈∆ºé8¡?  ËN∞w$€ÈkÒÑπ8¡?  ï@Á∞w$€ eH∫9¡?  ™ËÄ±w$€'$„bV9¡?  –A≤w$€ü iO…9¡?  C√≥≤w$€∫≤UìÒ9¡?  ÌêM≥w$€|∏‰∏S:¡?  KÎÊ≥w$€–Ì%ç—:¡?  îÄ¥w$€R¨d‘:¡?  °:µw$€·^ô∑Í:¡?  ∑	¥µw$€Hî¨yD;¡?  ãM∂w$€g˘∆q;¡?  «2Á∂w$€ß@fg—;¡?  ∏≥Ä∑w$€ë"◊Úo<¡?  EF∏w$€–{Oç<¡?  W‹≥∏w$€]üﬁ1·<¡?  <ÑMπw$€È‘ïœÚ<¡?  i-Áπw$€""Î_H=¡?  í˙Ä∫w$€=
+◊£p=¡?  Õ£ªw$€9]ªY(>¡?  #J¥ªw$€rKPh˛=¡?  `ÚMºw$€ñVs>¡?  |sÁºw$€Øt„Çÿ>¡?  NÅΩw$€Ë¡8.?¡?  ltæw$€Cí¥v6?¡?  E¥æw$€ßJJ0ã?¡?  ÔMøw$€NhÌ≈?¡?  ñÁøw$€ƒ Uπı?¡?  ºÅ¿w$€<«€•h@¡?  ¡æ¡w$€n6%¥@¡?  @¥¡w$€¸=A¡?  r¿M¬w$€¸=A¡?  AÁ¬w$€Ìx§∞A¡?  ˛ËÄ√w$€¸úÃâáA¡?  Ájƒw$€É∆ß[—A¡?  ÇÍ≥ƒw$€∂€B¡?  rlM≈w$€V=™´LB¡?  óÏÊ≈w$€*CøäB¡?  {FÄ∆w$€ül£¯B¡?  *««w$€ö`8◊0C¡?  ]o≥«w$€~7›≤C¡?  çM»w$€P`¡C¡?  ´pÊ»w$€-NkâKD¡?  ∂Ä…w$€ÔS˙Æ≠D¡?  ˆ# w$€¸G–¡D¡?  ˙Ú≤ w$€íÙà‚D¡?  √¬LÀw$€>}_∑cE¡?   kÊÀw$€ ˆj6E¡?  ‡vÃw$€lƒ›jÁE¡?  €œÕw$€Yƒ}F¡?  û*≤Õw$€ƒvúGjF¡?  ‹˙KŒw$€±v YéF¡?  ÛyÂŒw$€ÒΩ˚ÌF¡?  )˚~œw$€È4¡&!G¡?  ´¢–w$€◊4Ô8EG¡?  v#≤–w$€Z·LäG¡?  ]ÚK—w$€z4’ì˘G¡?  LÂ—w$€C4_ eH¡?  ‹Û~“w$€•˛’>xH¡?  ﬁú”w$€∑=Ê®H¡?  NC≤”w$€œihwH¡?  8ÏK‘w$€Á3E%I¡?  eîÂ‘w$€<1Î≈PN¡?  îd’w$€∆ WŸ-ƒ?  f
+÷w$€+n7Òø«?  ºŸ≤÷w$€©adncXÀ?  ^ÇL◊w$€Ê0©Îö⁄Œ?  PÊ◊w$€X$ÅaT-—?  ·—ÿw$€	©6ì Ô“?  |†Ÿw$€±˝då≥‘?  w˙≤Ÿw$€«™n‰p÷?  ÎzL⁄w$€÷WWj1ÿ?  ˆIÊ⁄w$€vÓáÈå9Ÿ?  ëÀ€w$€Û2‘r±3Ÿ?  ^K‹w$€Ó ”^È!Ÿ?  ≥‹w$€T),ßÛŸ?  z√L›w$€Ù‹BW"–Ÿ?  ÄíÊ›w$€nçc¥Ÿ?  "Äﬁw$€-8ÕLz©Ÿ?  nìﬂw$€ﬂd¿˛ê£Ÿ?  R=≥ﬂw$€Ã„z%⁄üŸ?  ÇºL‡w$€P\D ùŸ?  ﬂÔÂ‡w$€ å∑ï^õŸ?  q·w$€[2}eîùŸ?  µ?‚w$€≠a–S.ûŸ?  †≥‚w$€Éˆè*/ûŸ?  äèL„w$€pˆΩ<SûŸ?  .Ê„w$€tÍ gyûŸ?  Îê‰w$€2¸LbµûŸ?  
+`Âw$€"iZΩûŸ?  Å∫≤Âw$€¸®Ü˝ûŸ?  #;LÊw$€bIπ˚üŸ?  ˛ìÂÊw$€ºä÷õbüŸ?  —Ó~Áw$€(CUL•üŸ?  aHËw$€
+=¨Å˜üŸ?  ˚≤Ëw$€FêÔ˜0†Ÿ?  ‰øKÈw$€.≤l†Ÿ?  €@ÂÈw$€ºHWüa†Ÿ?  &ö~Íw$€“$g¬†Ÿ?  JÛÎw$€Ô9∞°Ÿ?  ÷õ±Îw$€ôïíäk°Ÿ?  ·CKÏw$€ŒÓ⁄Ôö°Ÿ?  ‘u‰Ïw$€îqÁ¢Ÿ?  à–}Ìw$€<"]¢Ÿ?  $üÓw$€Jqüfí¢Ÿ?  √±Ów$€3eÒ¨Ó¢Ÿ?  ÒyJÔw$€d)Ìhw£Ÿ?  åH‰Ôw$€fb_W8.Ô?  ß¢}w$€»îA’(Ô?  ÃJÒw$€[ÁÑuà$Ô?  ¸Ò∞Òw$€ìÂ$îæÒ?  ÛsJÚw$€¬‡ıÙlÒ?  dÙ„Úw$€∞Tº6¿Ò?  P±|Ûw$€[,†´Ò?  ÷Ùw$€±∂s´1Ò?  !eØÙw$€…!‚ÊTÒ?  —5Iıw$€vˇ≥AÅÒ?  eé‚ıw$€ΩU◊°öÒ?  ™Í{ˆw$€NÇí]ƒÒ?  ø˜w$€MπgÍÒ?  ÒuÆ˜w$€ˇÆXÒ?  ˆG¯w$€ƒÆí4$Ò?  ¥P·¯w$€{åMÜ>Ò? ©à„u$€     ∞3@ v\Nu$€     ∞3@ $)Ëu$€P^ˇø±3@ £¯Åu$€     ∞3@ ∆¿u$€     ∞3@ lµu$€ïø÷  ≥3@ ≤>Ou$€∞° @≤3@ Èu$€6†îˇ¨3@ »‘Çu$€P^ˇø≠3@ D†u$€ïø÷  Ø3@ ëI∂u$€ïø÷  ´3@ ƒPu$€ïø÷  Ø3@ „‰Èu$€ _k Ä´3@ `_Åu$€ÂØ5 ¿™3@ ,u$€     ¨3@ ÔÚ¥u$€k@)ˇˇ¨3@ ¶öNu$€     ¨3@ åiËu$€6†îˇ™3@ Ü3Çu$€P^ˇø©3@ du$€ÂØ5 ¿®3@ –µu$€     ™3@ …yOu$€P ˇ?£3@ πNÍu$€P ˇ?©3@ 	Ñu$€     ™3@ ∂Ôu$€6†îˇ¶3@ £º∑u$€ _k Ä´3@ »äQu$€P^ˇøß3@ â1Îu$€ÂØ5 ¿®3@ é°Çu$€ÂØ5 ¿®3@ pwu$€k@)ˇˇ§3@ $<∂u$€k@)ˇˇ®3@ ç7Q u$€ïø÷  ß3@ „Í u$€∞° @¢3@ ¸≠Ñ!u$€∞° @®3@ }"u$€6†îˇ®3@ qN∏"u$€6†îˇ§3@ xR#u$€P^ˇøß3@ ÑÂÎ#u$€P^ˇø•3@ FêÖ$u$€ÂØ5 ¿¶3@ ‡g%u$€     ™3@ Z1π%u$€     ®3@ ˝R&u$€P ˇ?£3@ •Ï&u$€k@)ˇˇ®3@ TNÜ'u$€P ˇ?ß3@ S (u$€P ˇ?•3@ »Ìπ(u$€6†îˇ¢3@ πΩS)u$€6†îˇ¶3@ §éÌ)u$€6†îˇ®3@ qVá*u$€P^ˇø©3@ Hˇ +u$€ _k Äß3@ ò“∫+u$€ _k Äß3@ ¢HR,u$€P^ˇø£3@ _Ï,u$€ïø÷  ß3@ ∂◊Ö-u$€     §3@ q.u$€k@)ˇˇ§3@ ≠Aπ.u$€P ˇ?ß3@ ]∑P/u$€P ˇ?°3@ …ÉÍ/u$€∞° @¶3@ aRÑ0u$€∞° @¶3@ ∞˜1u$€6†îˇ¶3@ ^’∑1u$€     §3@ ìïQ2u$€P ˇ?ß3@ ZZÎ2u$€P ˇ?ß3@ ë»Ç3u$€6†îˇ™3@ πë4u$€P ˇ?•3@ ◊7∂4u$€P ˇ?£3@ –nP5u$€6†îˇ§3@ u›Á5u$€6†îˇ¶3@ ˝´Å6u$€ÂØ5 ¿§3@ ∑p7u$€ÂØ5 ¿¶3@ Öµ7u$€P^ˇøß3@ †·N8u$€ÂØ5 ¿¢3@ µ≠Ë8u$€P^ˇø•3@ U Ä9u$€P^ˇøß3@ ßÍ:u$€P^ˇø•3@ <∑≥:u$€k@)ˇˇ®3@ OYM;u$€P^ˇø£3@ Â$Á;u$€ïø÷  ß3@ äï~<u$€ïø÷  ß3@ `=u$€P ˇ?•3@ Ÿ.≤=u$€k@)ˇˇ§3@ π’K>u$€k@)ˇˇ§3@ ÷ßÂ>u$€     ¶3@ ˇs?u$€     û3@ Ç?@u$€ïø÷  £3@ =	≥@u$€     ¶3@ íÕLAu$€     ®3@ :‰Au$€P ˇ?°3@ ﬁ}Bu$€6†îˇ§3@ }Cu$€∞° @§3@ ƒO±Cu$€∞° @§3@ «KDu$€∞° @§3@ ê’‰Du$€ïø÷  ß3@ Íî~Eu$€P ˇ?•3@ YFu$€∞° @¢3@ J“ØFu$€ _k Äß3@ [°IGu$€6†îˇ®3@ ªE„Gu$€P ˇ?£3@ .•}Hu$€ _k Ä•3@ yIu$€P^ˇø£3@ ˜ÁÆIu$€P^ˇø£3@ 
+ÆHJu$€P ˇ?°3@ ±{‚Ju$€ _k Ä£3@ $!|Ku$€∞° @¶3@ 9ÊLu$€6†îˇú3@ ÄπØLu$€6†îˇ§3@ <ñIMu$€P^ˇøü3@ 6a„Mu$€ _k Ä°3@ ≥
+}Nu$€ _k Ä°3@ YÿOu$€ÂØ5 ¿¢3@ ô†∞Ou$€ÂØ5 ¿§3@ -lJPu$€ÂØ5 ¿¢3@ 57‰Pu$€6†îˇ¢3@ Ë®{Qu$€6†îˇ¢3@ ¬LRu$€ÂØ5 ¿†3@ õØRu$€6†îˇ¢3@ 	ﬂHSu$€P^ˇø•3@ WL‡Su$€ÂØ5 ¿¢3@ (zTu$€ÂØ5 ¿¢3@ "∏Uu$€     ¶3@ Ö≠Uu$€P^ˇø£3@ 'ÔDVu$€     ¶3@ ÇªﬁVu$€ÂØ5 ¿û3@ ÿâxWu$€ïø÷  ü3@ ëRXu$€k@)ˇˇ†3@ Ù´Xu$€P^ˇø£3@ jºEYu$€P^ˇø£3@ ˇ3›Yu$€     ¢3@ ∂˛vZu$€     ¢3@ /–[u$€     ¢3@ 5v™[u$€ïø÷  ß3@ ﬂED\u$€     ¢3@ _ﬁ\u$€P^ˇø°3@ ∏„w]u$€     †3@ »∞^u$€     †3@ -W´^u$€     †3@ "E_u$€     ¢3@ @Ïﬁ_u$€k@)ˇˇ§3@ ∑øx`u$€     ¢3@ 9äau$€     ¢3@ ÓW¨au$€     ¢3@ ˚Ebu$€P^ˇøü3@  ﬂbu$€∞° @†3@ Ùïycu$€P ˇ?•3@ Edu$€∞° @†3@ úÿ™du$€     û3@ |~Deu$€     û3@ 'Jﬁeu$€∞° @†3@ Úxfu$€ _k Ä£3@ 3·gu$€∞° @†3@ Ó¶´gu$€∞° @†3@ ÕChu$€∞° @û3@ √ﬂhu$€∞° @ú3@ ¸ëviu$€∞° @û3@ €_ju$€k@)ˇˇ†3@ Ñ/™ju$€k@)ˇˇ†3@ :˛Cku$€∞° @û3@ õß›ku$€∞° @û3@ swwlu$€     ú3@ EAmu$€∞° @û3@ )´mu$€k@)ˇˇ†3@ ˛‹Dnu$€P ˇ?°3@ ≠ﬁnu$€P ˇ?ü3@ dTxou$€∞° @ú3@ s#pu$€P ˇ?ü3@ ˆ´pu$€∞° @ú3@ ˙øEqu$€∞° @ú3@ íﬂqu$€P ˇ?ü3@ ∫8yru$€∞° @ú3@ 0su$€P ˇ?ù3@ I—¨su$€P ˇ?ü3@ éõFtu$€P ˇ?ü3@ ‚i‡tu$€P ˇ?ù3@ €zuu$€P ˇ?ü3@ «‡vu$€P ˇ?ù3@ Ñ´≠vu$€P ˇ?ù3@ „vGwu$€P ˇ?ü3@ GÌﬁwu$€P ˇ?ù3@ 5∑xxu$€P ˇ?ù3@ 4[yu$€P ˇ?ù3@ R$¨yu$€ _k Äü3@ ‘ıEzu$€P ˇ?ù3@ –ªﬂzu$€ _k Äü3@ ñ(w{u$€6†îˇò3@ Â—|u$€6†îˇö3@ oô™|u$€6†îˇö3@ ≤pD}u$€6†îˇö3@  7ﬁ}u$€6†îˇö3@ O›w~u$€ _k Äï3@ ]≠u$€P ˇ?õ3@ YW´u$€P ˇ?õ3@ ë&EÄu$€P ˇ?õ3@ 'é‹Äu$€6†îˇò3@ o[vÅu$€P ˇ?õ3@ ¶'Çu$€P ˇ?õ3@ [”©Çu$€6†îˇò3@ lûCÉu$€∞° @ñ3@ h›Éu$€∞° @ñ3@ ”:wÑu$€6†îˇò3@ Ú
+Öu$€6†îˇò3@ „÷™Öu$€6†îˇò3@ ÇDÜu$€∞° @ñ3@ iMﬁÜu$€P ˇ?õ3@ 
+ xáu$€6†îˇò3@ 6Ôàu$€P^ˇøì3@ †º´àu$€6†îˇò3@ ódEâu$€ÂØ5 ¿ñ3@ »3ﬂâu$€6†îˇò3@ 0yäu$€6†îˇò3@ D“ãu$€ÂØ5 ¿ñ3@ %ü¨ãu$€6†îˇò3@ {nFåu$€P^ˇøì3@ N‡åu$€6†îˇò3@ Ó·yçu$€P^ˇøõ3@ ‹Øéu$€ÂØ5 ¿ñ3@ 4z≠éu$€P^ˇøì3@ ›BGèu$€ÂØ5 ¿ñ3@ Ûïﬁèu$€P^ˇøì3@ ™Yxêu$€P^ˇøì3@ ))ëu$€P^ˇøì3@ :¯´ëu$€6†îˇî3@ ƒ…Eíu$€ _k Äë3@ ›kﬂíu$€6†îˇñ3@ I9yìu$€6†îˇî3@ 'îu$€ _k Äë3@ G–¨îu$€6†îˇî3@ S¢Fïu$€ _k Äô3@ rl‡ïu$€6†îˇî3@ €zñu$€ _k Äë3@ Ã‹óu$€6†îˇî3@ 	T´óu$€6†îˇî3@ Eòu$€ _k Äë3@ ÌÍﬁòu$€6†îˇî3@ â∑xôu$€ _k Äë3@ +cöu$€6†îˇî3@ A,¨öu$€P^ˇøè3@ FFõu$€6†îˇî3@ è–ﬂõu$€6†îˇî3@ ’ôyúu$€ _k Äë3@ òHùu$€6†îˇî3@ √≠ùu$€ _k Äë3@ ‰Fûu$€6†îˇî3@ }Mﬂûu$€P^ˇøè3@ Û5{üu$€ _k Äë3@ ;›†u$€6†îˇí3@ ﬂK¨†u$€ÂØ5 ¿î3@ .F°u$€P^ˇøç3@ œÂﬂ°u$€6†îˇí3@ ≤y¢u$€6†îˇí3@ ≠Ñ£u$€6†îˇí3@ ’4≠£u$€6†îˇí3@ ∫˙F§u$€6†îˇí3@ /À‡§u$€6†îˇí3@ Fòz•u$€6†îˇí3@ ò]¶u$€6†îˇí3@ &Æ¶u$€P^ˇøç3@ «–Gßu$€P^ˇøç3@ ¿•·ßu$€P^ˇøç3@ @p{®u$€P^ˇøç3@ ™A©u$€P^ˇøç3@ ŒØ©u$€P^ˇøè3@ îUF™u$€P^ˇøè3@ "‡™u$€P^ˇøç3@ mÔy´u$€6†îˇí3@ Çº¨u$€P^ˇøè3@ –ö≠¨u$€P^ˇøè3@ ≤?G≠u$€ÂØ5 ¿ä3@ ·≠u$€P^ˇøè3@ 6÷zÆu$€6†îˇí3@ <•Øu$€P^ˇøç3@ sÆØu$€P^ˇøç3@ õBH∞u$€P^ˇøç3@ ˜È·∞u$€P^ˇøè3@ π{±u$€P^ˇøç3@ íà≤u$€P^ˇøç3@ Y[Ø≤u$€P^ˇøç3@ û#I≥u$€P^ˇøç3@ dÀ‚≥u$€ÂØ5 ¿à3@ 0£|¥u$€P^ˇøã3@ ◊iµu$€ÂØ5 ¿ê3@ ∫7∞µu$€P^ˇøç3@ xJ∂u$€ÂØ5 ¿à3@ √∞„∂u$€ÂØ5 ¿ê3@ 0{}∑u$€P^ˇøç3@ gP∏u$€P^ˇøç3@ c±∏u$€P^ˇøã3@ EÈJπu$€P^ˇøç3@ Mπ‰πu$€P^ˇøã3@ À]~∫u$€P^ˇøã3@ y0ªu$€P^ˇøã3@ Y¸±ªu$€P^ˇøã3@ ◊Kºu$€P^ˇøã3@ ™®Âºu$€P^ˇøã3@ 7FΩu$€P^ˇøã3@ 	ãæu$€P^ˇøã3@ ª[¥æu$€ÂØ5 ¿à3@ à*Nøu$€P^ˇøÉ3@ Ù¯Áøu$€ÂØ5 ¿ê3@ È«Å¿u$€P^ˇøã3@ qo¡u$€ÂØ5 ¿à3@ â?µ¡u$€P^ˇøã3@ \O¬u$€ÂØ5 ¿à3@ EàÊ¬u$€ÂØ5 ¿à3@ ØÇ√u$€ÂØ5 ¿à3@ ÿˆƒu$€ÂØ5 ¿Ü3@ ¡≥ƒu$€P^ˇøã3@ LêM≈u$€ÂØ5 ¿à3@ ∆`Á≈u$€ÂØ5 ¿à3@ r.Å∆u$€P^ˇøã3@ °¸«u$€P^ˇøã3@ à£¥«u$€P^ˇøã3@ ÆrN»u$€P^ˇøã3@ óCË»u$€P^ˇøã3@ %Ç…u$€ÂØ5 ¿à3@ ¯„ u$€ÂØ5 ¿à3@ Ÿãµ u$€ÂØ5 ¿à3@ •VOÀu$€ÂØ5 ¿à3@ ¯$ÈÀu$€P^ˇøÉ3@ EÛÇÃu$€P^ˇøÉ3@ R¡Õu$€ÂØ5 ¿Ü3@ é∂Õu$€ÂØ5 ¿Ü3@ Ì1PŒu$€ÂØ5 ¿Ü3@ (ÍŒu$€ÂØ5 ¿Ü3@ tŒÉœu$€ÂØ5 ¿à3@ ù–u$€ÂØ5 ¿Ü3@ Cp∑–u$€ÂØ5 ¿Ü3@ rQ—u$€     Ç3@ Ö›Í—u$€ÂØ5 ¿Ü3@ pØÑ“u$€ÂØ5 ¿Ü3@ 4{”u$€ÂØ5 ¿à3@ 4Òµ”u$€P^ˇøÉ3@ æO‘u$€ÂØ5 ¿Ü3@ ¥hÈ‘u$€P^ˇøÉ3@ f3É’u$€ÂØ5 ¿Ü3@ }^÷u$€     Ç3@ {”∂÷u$€P^ˇøÉ3@ \°P◊u$€P^ˇøÉ3@ FIÍ◊u$€P^ˇøÉ3@ Ñÿu$€ÂØ5 ¿Ü3@ “ÁŸu$€ÂØ5 ¿Ü3@ v∑∑Ÿu$€P^ˇøÉ3@ ≠ÖQ⁄u$€P^ˇøÉ3@ ©5Î⁄u$€P^ˇøÉ3@ Å˚Ñ€u$€ÂØ5 ¿~3@ À‹u$€P^ˇøÉ3@ cö∏‹u$€P^ˇøÉ3@ zjR›u$€P^ˇøÉ3@ ó5Ï›u$€     Ç3@ ¢ﬁÖﬁu$€P^ˇøÉ3@ Æﬂu$€P^ˇøÉ3@  |πﬂu$€     Ç3@ AKS‡u$€     Ç3@ Ì‡u$€     Ç3@ J¿Ü·u$€ÂØ5 ¿~3@ ©é ‚u$€P^ˇøÉ3@ D^∫‚u$€P^ˇøÉ3@ @+T„u$€     Ç3@ §˚Ì„u$€P^ˇøÉ3@ âŒá‰u$€     Ç3@ ,q!Âu$€P^ˇøÉ3@ û@ªÂu$€ÂØ5 ¿~3@ 9UÊu$€     Ç3@ d‚ÓÊu$€k@)ˇˇ|3@ q≤àÁu$€P^ˇøÉ3@ ÿT"Ëu$€P^ˇøÉ3@ /"ºËu$€ÂØ5 ¿~3@ ñÓUÈu$€ÂØ5 ¿~3@ ‡ªÔÈu$€     Ç3@ #ãâÍu$€     Ç3@ rY#Îu$€ÂØ5 ¿~3@ ◊˝ºÎu$€     Ç3@ ^ŒVÏu$€ÂØ5 ¿~3@ m†Ïu$€ÂØ5 ¿~3@ IgäÌu$€ÂØ5 ¿~3@ ˛:$Óu$€     Ç3@ 6ﬂΩÓu$€     Ç3@ ÆWÔu$€ÂØ5 ¿~3@ $ÔÔu$€     Ç3@ ¿ıàu$€ÂØ5 ¿~3@ Ç∫"Òu$€ÂØ5 ¿~3@ ókºÒu$€k@)ˇˇ|3@ 76VÚu$€k@)ˇˇ|3@ ÿÚu$€ÂØ5 ¿Ü3@ ÕâÛu$€ÂØ5 ¿~3@ "õ#Ùu$€k@)ˇˇ|3@ ~oΩÙu$€P^ˇøÉ3@ MWıu$€ÂØ5 ¿~3@ î„ıu$€ÂØ5 ¿~3@ ≥äˆu$€ÂØ5 ¿~3@ €Å$˜u$€ÂØ5 ¿~3@ NQæ˜u$€ÂØ5 ¿~3@ ˛W¯u$€ÂØ5 ¿~3@ Ò«Ò¯u$€P^ˇøy3@ 8úã˘u$€ÂØ5 ¿~3@ Ça%˙u$€k@)ˇˇ|3@ ®2ø˙u$€k@)ˇˇ|3@ ¶Y˚u$€     Ç3@ t©Ú˚u$€ÂØ5 ¿~3@ ÏÄå¸u$€k@)ˇˇ|3@ (K&˝u$€     x3@ ù¿˝u$€     Ç3@ ‰Y˛u$€k@)ˇˇ|3@ óêÛ˛u$€ÂØ5 ¿~3@ lçˇu$€ÂØ5 ¿~3@ o0' v$€k@)ˇˇ|3@ Î˛¿ v$€k@)ˇˇ|3@ ÀZv$€P^ˇøy3@ –ïÙv$€k@)ˇˇ|3@ $Eév$€k@)ˇˇ|3@ Å(v$€k@)ˇˇ|3@ ~ÿ¡v$€k@)ˇˇ|3@ ß[v$€     x3@ Ìsıv$€P^ˇøy3@ 5èv$€k@)ˇˇ|3@ Â(v$€ÂØ5 ¿~3@ -≥¬v$€P^ˇøy3@ }à\v$€P^ˇøy3@ •Sˆv$€k@)ˇˇ|3@ ≠ êv$€P^ˇøy3@ Ø…)	v$€k@)ˇˇ|3@ Uõ√	v$€k@)ˇˇ|3@ §h]
+v$€     x3@ â4˜
+v$€k@)ˇˇ|3@ 4ëv$€k@)ˇˇ|3@ ?´*v$€k@)ˇˇt3@ öxƒv$€P^ˇøy3@ ÷Û[v$€     x3@ ∂¯v$€     x3@ µåèv$€P^ˇøy3@ ‘U)v$€P^ˇøy3@ ñ¸¬v$€     x3@ î \v$€     x3@ Xúˆv$€     x3@ Ìgêv$€     x3@ í6*v$€P^ˇøy3@ €√v$€P^ˇøy3@ TÆ]v$€     x3@ Ì}˜v$€P^ˇøy3@ ÏHëv$€     x3@ √+v$€P^ˇøy3@ .∏ƒv$€P^ˇøy3@ 6à^v$€     x3@ X¯v$€     x3@ 'ív$€     x3@ óÔ+v$€     x3@ ƒ¡≈v$€P^ˇøy3@ we_v$€     x3@ [‹ˆv$€P ˇ?s3@ î´êv$€     x3@ _}*v$€P^ˇøy3@ ôHƒv$€     x3@ ≤Ï]v$€     x3@ Ú∑˜v$€k@)ˇˇt3@ áëv$€k@)ˇˇt3@ ÜR+v$€k@)ˇˇt3@ ≈v$€k@)ˇˇt3@ 0Î^v$€k@)ˇˇt3@ î¯v$€k@)ˇˇt3@ „bí v$€P^ˇøy3@ $0,!v$€k@)ˇˇt3@ è¸≈!v$€P ˇ?s3@ *Œ_"v$€P ˇ?s3@ ∞s˘"v$€P ˇ?s3@ ∞@ì#v$€P ˇ?s3@ E-$v$€P ˇ?s3@ è‹∆$v$€P ˇ?s3@ 5N^%v$€k@)ˇˇt3@ ı¯%v$€     x3@ ì¡ë&v$€     x3@ ë+'v$€k@)ˇˇt3@ Äd≈'v$€k@)ˇˇt3@ l._(v$€     x3@ ?˝¯(v$€k@)ˇˇt3@ Ü•í)v$€P ˇ?s3@ vs,*v$€P ˇ?s3@ …@∆*v$€P ˇ?s3@ `+v$€P ˇ?s3@ øﬁ˘+v$€k@)ˇˇp3@ Õ´ì,v$€P ˇ?s3@ ¡U--v$€P ˇ?s3@ !'«-v$€k@)ˇˇt3@ {Ô`.v$€P ˇ?s3@ ò¡˙.v$€P ˇ?s3@ ãî/v$€P ˇ?s3@ Ä2.0v$€P^ˇøm3@ ¢ »0v$€P ˇ?s3@ ŒÀa1v$€P ˇ?s3@ êö˚1v$€P ˇ?s3@ ‰ì2v$€P ˇ?s3@ }/3v$€k@)ˇˇp3@ ﬂ»3v$€P ˇ?s3@ 2U`4v$€k@)ˇˇp3@ Ω}¸4v$€P ˇ?s3@ ﬁ¯ì5v$€k@)ˇˇp3@ ü06v$€k@)ˇˇp3@ ˝¬…6v$€k@)ˇˇt3@ ï9a7v$€P ˇ?s3@ ¶a˝7v$€P ˇ?s3@ h/ó8v$€P ˇ?s3@ ` 19v$€P^ˇøm3@  4 9v$€k@)ˇˇp3@ d:v$€k@)ˇˇp3@ Ò“˝:v$€P^ˇøm3@ ö£ó;v$€P ˇ?s3@ Ân1<v$€k@)ˇˇp3@ a=À<v$€P^ˇøm3@ ’Ád=v$€k@)ˇˇp3@ ]_¸=v$€k@)ˇˇp3@ »3ñ>v$€k@)ˇˇp3@ q˜/?v$€k@)ˇˇp3@ ¥«…?v$€P^ˇøm3@ ˆnc@v$€P^ˇøm3@ _@˝@v$€P^ˇøm3@ ª	óAv$€k@)ˇˇp3@ ô⁄0Bv$€k@)ˇˇp3@ Ω§ Bv$€     l3@ »ydCv$€k@)ˇˇp3@ €˛Cv$€P^ˇøm3@ éÁóDv$€k@)ˇˇp3@ ¥∂1Ev$€k@)ˇˇp3@ LÖÀEv$€P^ˇøm3@ £TeFv$€P^ˇøm3@ V˚˛Fv$€k@)ˇˇp3@ ó»òGv$€     l3@ ≠í2Hv$€P ˇ?s3@ ‚_ÃHv$€k@)ˇˇh3@ ë-fIv$€P^ˇøm3@ Å”ˇIv$€P ˇ?s3@ Û†ôJv$€P^ˇøm3@ r3Kv$€P^ˇøm3@ ?ÕKv$€P^ˇøm3@ ‰∫dLv$€     l3@ Íá˛Lv$€P^ˇøm3@ è5òMv$€k@)ˇˇp3@ °˙1Nv$€P^ˇøm3@ H∆ÀNv$€     l3@ ﬁìeOv$€     l3@ ‘^ˇOv$€P^ˇøm3@ ΩôPv$€P^ˇøm3@ z÷2Qv$€k@)ˇˇp3@ ßÃQv$€P^ˇøm3@ yfRv$€     l3@ !D Sv$€P^ˇøm3@ ÷öSv$€k@)ˇˇh3@ û¿3Tv$€     l3@ QéÕTv$€     l3@ ⁄XgUv$€     l3@ O*Vv$€     l3@ F˜öVv$€     l3@ ™û4Wv$€k@)ˇˇh3@ +lŒWv$€P ˇ?g3@ √=hXv$€     l3@ Yv$€     l3@ o◊õYv$€k@)ˇˇp3@ «§5Zv$€     l3@ \UœZv$€     l3@ i[v$€     l3@ PË\v$€     l3@ ∑ú\v$€k@)ˇˇh3@ .à6]v$€     l3@ A.–]v$€k@)ˇˇh3@ ﬁôg^v$€     l3@ ¯g_v$€     l3@ «9õ_v$€     l3@ Y5`v$€k@)ˇˇh3@ ˝“Œ`v$€k@)ˇˇh3@ Éxhav$€     l3@ ‡Ebv$€P ˇ?g3@ úbv$€P ˇ?g3@ ˇÂ5cv$€     l3@ c±œcv$€P ˇ?g3@ ªaidv$€k@)ˇˇh3@ ã*ev$€k@)ˇˇh3@ )ˆúev$€k@)ˇˇh3@ o¬6fv$€P ˇ?g3@ Oì–fv$€k@)ˇˇh3@ @Bjgv$€P ˇ?g3@ œhv$€P ˇ?g3@ ¬÷ùhv$€     l3@ ƒ°7iv$€k@)ˇˇh3@ ﬁp—iv$€k@)ˇˇh3@ ’Bkjv$€     l3@ ”Èkv$€k@)ˇˇh3@ 0∑ûkv$€k@)ˇˇh3@ ,å8lv$€k@)ˇˇh3@ ~Q“lv$€     d3@ ÿlmv$€k@)ˇˇh3@ Á√nv$€k@)ˇˇh3@ r8ùnv$€     l3@ t7ov$€P ˇ?g3@ C”–ov$€k@)ˇˇh3@ „ùjpv$€     l3@ ¶mqv$€k@)ˇˇh3@ ÿûqv$€     l3@ :Â7rv$€P ˇ?g3@ ñ‹“rv$€P ˇ?g3@ ]lsv$€k@)ˇˇh3@ ã+tv$€k@)ˇˇh3@ q”ütv$€     d3@ ≠J7uv$€P ˇ?g3@ „r”uv$€k@)ˇˇh3@ Ã@mvv$€P ˇ?g3@ Tµwv$€P ˇ?g3@ 0Ñûwv$€k@)ˇˇh3@ 08xv$€     d3@ 2˝—xv$€k@)ˇˇh3@ 9Ãkyv$€k@)ˇˇh3@ Qñzv$€     d3@ ∏düzv$€P ˇ?g3@ ∏9{v$€P ˇ?g3@ _⁄“{v$€k@)ˇˇh3@ ¿®l|v$€P ˇ?g3@ w}v$€P ˇ?g3@ ùF†}v$€P ˇ?g3@ y:~v$€     d3@ 1¿”~v$€P ˇ?g3@ âàmv$€     d3@ nRÄv$€P ˇ?g3@ ì“†Äv$€P ˇ?g3@ Ëù:Åv$€P ˇ?g3@ I‘Åv$€k@)ˇˇh3@ DnÇv$€k@)ˇˇh3@ ·Év$€P ˇ?g3@ WØ°Év$€     d3@ &9Ñv$€     d3@ Áı“Ñv$€k@)ˇˇh3@ ˜nÖv$€P ˇ?g3@ ^pÜv$€k@)ˇˇh3@ ‰ó¢Üv$€k@)ˇˇh3@ 	:áv$€P ˇ?g3@ úÿ”áv$€k@)ˇˇh3@ ®ÿoàv$€P ˇ?g3@ fOâv$€     d3@ &°âv$€P ˇ?g3@ „Ì:äv$€k@)ˇˇh3@ Y∫‘äv$€     d3@ `nãv$€P ˇ?g3@ G/åv$€P ˇ?g3@ ¡¸°åv$€P ˇ?g3@ FÀ;çv$€P ˇ?g3@ 	ô’çv$€∞° @b3@ †foév$€P ˇ?g3@ ‹	èv$€k@)ˇˇh3@ æﬂ¢èv$€k@)ˇˇh3@ Æ<êv$€k@)ˇˇh3@ Èx÷êv$€     d3@ Kpëv$€k@)ˇˇh3@ ËÎ	ív$€k@)ˇˇh3@ 9ª£ív$€P ˇ?g3@ ä=ìv$€k@)ˇˇh3@ ´\◊ìv$€P ˇ?g3@ Å"qîv$€P ˇ?g3@ KÔ
+ïv$€P ˇ?g3@ Nñ§ïv$€     l3@ Ïe>ñv$€     l3@ p3ÿñv$€P ˇ?g3@ ]ßoóv$€P ˇ?g3@ Sq	òv$€P ˇ?g3@ l£òv$€k@)ˇˇh3@ öÊ<ôv$€k@)ˇˇh3@ å∞÷ôv$€P ˇ?g3@ Äpöv$€k@)ˇˇh3@ °O
+õv$€P ˇ?g3@ ¢§õv$€     d3@ ∆≈=úv$€P ˇ?g3@ \å◊úv$€     l3@ mYqùv$€k@)ˇˇh3@ N–ûv$€k@)ˇˇh3@ çö¢ûv$€P ˇ?g3@ wE<üv$€k@)ˇˇh3@ ‚÷üv$€P ˇ?g3@ ‰o†v$€k@)ˇˇh3@ ]∞	°v$€P ˇ?g3@ ﬁÄ£°v$€P ˇ?g3@ ôM=¢v$€k@)ˇˇh3@ !ˆ÷¢v$€k@)ˇˇh3@ 5«p£v$€k@)ˇˇh3@ Cè
+§v$€k@)ˇˇh3@ Ò]§§v$€     l3@ ‘)>•v$€     d3@ [“◊•v$€ïø÷  k3@ ¬£q¶v$€ÂØ5 ¿f3@ ≈sßv$€ÂØ5 ¿f3@ 7D•ßv$€ïø÷  k3@ éX?®v$€k@)ˇˇh3@ f"Ÿ®v$€ïø÷  k3@ l»r©v$€     n3@ mú™v$€ïø÷  k3@ Ëi¶™v$€ïø÷  k3@ cÿ=´v$€ÂØ5 ¿f3@ 	ß◊´v$€ÂØ5 ¿f3@ {Oq¨v$€k@)ˇˇh3@ ≠v$€k@)ˇˇh3@ Ô§≠v$€ïø÷  k3@ ∑º>Æv$€ïø÷  k3@ ÈçÿÆv$€ïø÷  k3@ ø/rØv$€ïø÷  k3@ l˝∞v$€ïø÷  k3@ s •∞v$€ïø÷  k3@ Hö?±v$€ÂØ5 ¿f3@ hŸ±v$€ïø÷  k3@ è8s≤v$€     d3@ R‡≥v$€k@)ˇˇh3@ òµ¶≥v$€k@)ˇˇh3@ ]Ä@¥v$€ïø÷  k3@ 8L⁄¥v$€ïø÷  k3@ Ítµv$€k@)ˇˇh3@ Äƒ∂v$€k@)ˇˇh3@ ‰ëß∂v$€     n3@ `A∑v$€ïø÷  k3@ 9.€∑v$€k@)ˇˇh3@ Ÿ˘t∏v$€k@)ˇˇh3@ à»πv$€k@)ˇˇh3@ n®πv$€     n3@ ¬8B∫v$€ÂØ5 ¿f3@ i	‹∫v$€ïø÷  k3@ Æ◊uªv$€ïø÷  k3@ '°ºv$€ïø÷  k3@ ≠K©ºv$€     n3@ ¡@Ωv$€ïø÷  k3@ #è⁄Ωv$€ïø÷  k3@ ﬂetæv$€     p3@ "&øv$€k@)ˇˇh3@ ∂˛ßøv$€     n3@ ºöA¿v$€k@)ˇˇh3@  m€¿v$€ïø÷  k3@ ‰9u¡v$€ïø÷  k3@ ≤
+¬v$€     p3@ ãŸ®¬v$€ïø÷  k3@ ~B√v$€k@)ˇˇh3@ ıO‹√v$€     n3@ -vƒv$€     n3@ 7Ï≈v$€ïø÷  k3@ Y∫©≈v$€     n3@ +ÜC∆v$€ïø÷  k3@ X/›∆v$€k@)ˇˇh3@ ´¸v«v$€     n3@ ! »v$€     n3@ Õó™»v$€ïø÷  k3@ ∞jD…v$€     n3@ %ﬁ…v$€     n3@ î‡w v$€ïø÷  k3@ œØÀv$€ïø÷  k3@ ÊÖ´Àv$€ïø÷  k3@ ›KEÃv$€ïø÷  k3@ WÛﬁÃv$€     p3@ ≈xÕv$€     n3@ ﬂãŒv$€ïø÷  k3@ 
+\¨Œv$€     n3@ ‚*Fœv$€ÂØ5 ¿r3@ ä˙ﬂœv$€ïø÷  k3@ §£y–v$€     p3@ ∆o—v$€ïø÷  k3@ X>≠—v$€     p3@ ™G“v$€     n3@ ∂◊‡“v$€     n3@ P0x”v$€k@)ˇˇh3@ bO‘v$€     n3@ a Æ‘v$€ïø÷  k3@ ﬁÏG’v$€ïø÷  k3@ êcﬂ’v$€     n3@ &ã{÷v$€k@)ˇˇh3@ π÷◊v$€k@)ˇˇh3@ ß¨◊v$€ïø÷  k3@ úrFÿv$€     p3@ b@‡ÿv$€     n3@ ∞zŸv$€     n3@ H∫⁄v$€     p3@ ^ä≠⁄v$€     p3@ U\G€v$€     n3@ ª&·€v$€     n3@ µÛz‹v$€     p3@ √›v$€     p3@ ›lÆ›v$€     n3@ ‘<Hﬁv$€     p3@ ¡
+„ﬁv$€     n3@ !∞|ﬂv$€k@)ˇˇt3@ V~‡v$€ÂØ5 ¿r3@ rÃ≠‡v$€k@)ˇˇt3@ pòG·v$€     p3@ ]c··v$€     p3@ ≤3{‚v$€     n3@ ◊˝„v$€     p3@ f’Æ„v$€ÂØ5 ¿r3@ ÔuH‰v$€ÂØ5 ¿r3@ ⁄B‚‰v$€     p3@ o|Âv$€     p3@ ˚‹Êv$€     n3@ %∞ØÊv$€     p3@ ôPIÁv$€     p3@ „Áv$€     n3@ îzËv$€     p3@ K[Èv$€     p3@ ◊(ÆÈv$€     n3@ m–GÍv$€ÂØ5 ¿r3@ .†·Ív$€ÂØ5 ¿r3@ ín{Îv$€     p3@ ﬂ=Ïv$€ÂØ5 ¿r3@ áØÏv$€ÂØ5 ¿r3@ &‹HÌv$€     p3@ ^Å‚Ìv$€k@)ˇˇt3@ ÇQ|Óv$€     n3@ •Ôv$€ÂØ5 ¿r3@ zÈØÔv$€     p3@ „∫Iv$€     p3@ `„v$€     p3@ Ì(}Òv$€ÂØ5 ¿r3@ ^ˇÚv$€ÂØ5 ¿r3@ 6∆∞Úv$€     p3@ ñìJÛv$€k@)ˇˇt3@ ;d‰Ûv$€ÂØ5 ¿r3@ 
+~Ùv$€ÂØ5 ¿r3@ Ω◊ıv$€ÂØ5 ¿r3@ ≠©±ıv$€     p3@ ˚xKˆv$€ÂØ5 ¿r3@ »FÂˆv$€ÂØ5 ¿r3@ >ì|˜v$€ÂØ5 ¿r3@ ÷i¯v$€k@)ˇˇt3@ ï/∞¯v$€k@)ˇˇt3@ (ˇI˘v$€ÂØ5 ¿r3@  —„˘v$€     p3@ ’ö}˙v$€ÂØ5 ¿r3@ 'G˚v$€     n3@ ª±˚v$€k@)ˇˇt3@ &·J¸v$€ÂØ5 ¿r3@ R≠‰¸v$€ÂØ5 ¿r3@ -y~˝v$€ÂØ5 ¿r3@ ú$˛v$€     p3@ $ˆ±˛v$€     p3@ ¥√Kˇv$€ÂØ5 ¿r3@ ƒêÂˇv$€P^ˇøw3@ T_ w$€ÂØ5 ¿r3@ –+w$€k@)ˇˇt3@ ]◊≤w$€P^ˇøw3@ •Lw$€ÂØ5 ¿r3@ ¡sÊw$€ÂØ5 ¿r3@ ¨BÄw$€ÂØ5 ¿r3@ Jw$€P^ˇøw3@ ‹ª≥w$€k@)ˇˇt3@ ÿÜMw$€k@)ˇˇt3@ ßPÁw$€k@)ˇˇt3@ "Åw$€k@)ˇˇt3@ ?Ów$€P^ˇøw3@ √¥w$€k@)ˇˇt3@ '`Nw$€k@)ˇˇt3@ ù2Ëw$€k@)ˇˇt3@ ˚Å	w$€k@)ˇˇt3@ ˜r
+w$€k@)ˇˇt3@ d@≥
+w$€P^ˇøw3@ ÏLw$€ÂØ5 ¿r3@ Z∫Êw$€P^ˇøw3@ ÄÄw$€P^ˇøw3@ ﬁPw$€k@)ˇˇt3@ Ë¥w$€P^ˇøw3@ ΩƒMw$€P^ˇøw3@ ØìÁw$€k@)ˇˇt3@ ∞`Åw$€k@)ˇˇt3@ Ò.w$€P^ˇøw3@ ô µw$€k@)ˇˇt3@ ÄœNw$€     z3@ fvËw$€P^ˇøw3@ H=Çw$€P^ˇøw3@ bw$€k@)ˇˇt3@ Hﬁµw$€k@)ˇˇt3@ b´Ow$€     z3@ ñˇËw$€P^ˇøw3@ zÕÇw$€     z3@ =w$€P^ˇøw3@ √¥w$€     z3@ M€Mw$€k@)ˇˇt3@ ¡•Áw$€P^ˇøw3@ )OÅw$€P^ˇøw3@ ' w$€     z3@ 4Ï¥w$€ÂØ5 ¿|3@ ô∑Nw$€P^ˇøw3@ ¸ÉËw$€P^ˇøw3@ Û%Çw$€P^ˇøw3@ ¢Ûw$€P^ˇøw3@ ’¡µw$€P^ˇøw3@ aòOw$€k@)ˇˇt3@ öcÈw$€P^ˇøw3@ /Éw$€P^ˇøw3@ W’w$€P^ˇøw3@ É§∂w$€k@)ˇˇt3@ vP w$€     z3@ ÁÊÁ w$€P^ˇøw3@ 4Ñ!w$€P^ˇøw3@ \["w$€     z3@ z∂"w$€     z3@ êJP#w$€k@)ˇˇt3@ XMÍ#w$€     z3@ ¿ÂÉ$w$€     z3@ b≤%w$€     z3@ J[∑%w$€     z3@ “,Q&w$€ÂØ5 ¿|3@ `˛Í&w$€     z3@ ¨ÀÑ'w$€ÂØ5 ¿|3@ ˇì(w$€P^ˇøw3@ =Ïµ(w$€     z3@ ÿ∞O)w$€     z3@ ™È)w$€ÂØ5 ¿|3@ ΩMÉ*w$€ÂØ5 ¿|3@ …+w$€P^ˇøw3@ ∂√∂+w$€ÂØ5 ¿|3@ óíP,w$€ïø÷  3@ ¸bÍ,w$€     z3@ 5-Ñ-w$€     z3@ g˙.w$€     z3@ Ñ ∑.w$€     z3@ •qQ/w$€ÂØ5 ¿|3@ Y?Î/w$€ÂØ5 ¿|3@ {Ö0w$€ïø÷  3@ Ã›1w$€ÂØ5 ¿|3@ x¨∏1w$€     z3@ ?NR2w$€ÂØ5 ¿|3@ ZÏ2w$€ïø÷  3@ ÂÖ3w$€ïø÷  3@ 4]4w$€ïø÷  3@ R'∑4w$€     z3@ vÒP5w$€ÂØ5 ¿|3@ kúÍ5w$€ÂØ5 ¿|3@ ¯fÑ6w$€     z3@ ∑17w$€ÂØ5 ¿|3@ Eˇ∑7w$€ÂØ5 ¿|3@ ‰ÀQ8w$€     z3@ (uÎ8w$€ïø÷  3@ EÖ9w$€ÂØ5 ¿|3@ ,:w$€     z3@ Sﬂ∏:w$€ÂØ5 ¿|3@ ∞≥R;w$€     z3@ ùyÏ;w$€ÂØ5 ¿|3@ ÷"Ü<w$€ïø÷  3@ ∆î=w$€ïø÷  3@ Ö_∑=w$€ïø÷  3@ +Q>w$€ÂØ5 ¿|3@ ë˘Í>w$€ÂØ5 ¿|3@ ™ûÑ?w$€ÂØ5 ¿|3@ =t@w$€ÂØ5 ¿|3@ “@∏@w$€ÂØ5 ¿|3@ ÓRAw$€ïø÷  3@ º◊ÎAw$€ÂØ5 ¿|3@ T•ÖBw$€ïø÷  3@ ÊMCw$€P^ˇøÅ3@ åπCw$€P^ˇøÅ3@ ÎRDw$€ïø÷  3@ 5ªÏDw$€ïø÷  3@ räÜEw$€ïø÷  3@ á) Fw$€ïø÷  3@ ”¯πFw$€ÂØ5 ¿|3@ ≤«SGw$€ïø÷  3@ EïÌGw$€P^ˇøÅ3@ ldáHw$€P^ˇøÅ3@ ‚ÿIw$€ïø÷  3@ »Ç∏Iw$€ïø÷  3@ 5ORJw$€ïø÷  3@ ›ÏJw$€P^ˇøÅ3@ ¢ÊÖKw$€P^ˇøÅ3@ Ù¥Lw$€ïø÷  3@ _πLw$€P^ˇøÅ3@ Â0SMw$€ïø÷  3@ u˝ÏMw$€P^ˇøÉ3@ ú«ÜNw$€ïø÷  3@ °é Ow$€P^ˇøÉ3@ __∫Ow$€ÂØ5 ¿|3@ KTPw$€P^ˇøÅ3@ zÎPw$€ÂØ5 ¿|3@ jDÖQw$€P^ˇøÉ3@ ‰«Rw$€ïø÷  3@ VñπRw$€P^ˇøÅ3@ ì;SSw$€ïø÷  3@ ÀÌSw$€ïø÷  3@ ª‘ÜTw$€P^ˇøÉ3@ IUw$€P^ˇøÉ3@ ∏Uw$€ïø÷  3@ ¡‚QVw$€ïø÷  3@ väÎVw$€P^ˇøÅ3@ 6YÖWw$€ïø÷  3@ Z)Xw$€P^ˇøÉ3@ ˜∏Xw$€P^ˇøÉ3@ ≤¬RYw$€P^ˇøÅ3@ ŸlÏYw$€P^ˇøÅ3@ ˘8ÜZw$€P^ˇøÅ3@  [w$€ïø÷  3@ €é∫[w$€P^ˇøÅ3@ 8T\w$€P^ˇøÉ3@ 2·Ì\w$€P^ˇøÖ3@ ;±á]w$€P^ˇøÖ3@ ï&^w$€P^ˇøÅ3@ Y∏^w$€P^ˇøÉ3@ «ªR_w$€P^ˇøÉ3@ yèÏ_w$€P^ˇøÉ3@ l3Ü`w$€P^ˇøÉ3@ T  aw$€P^ˇøÉ3@ ”πaw$€P^ˇøÉ3@ s¢Sbw$€P^ˇøÉ3@ —jÌbw$€P^ˇøÖ3@ 	ácw$€P^ˇøÅ3@ ‹ dw$€P^ˇøÅ3@ q®∫dw$€P^ˇøÉ3@ ¶}Tew$€P^ˇøÖ3@ ‡KÓew$€P^ˇøÉ3@ àfw$€P^ˇøÉ3@ ‡Wgw$€P^ˇøÉ3@ @$πgw$€P^ˇøÉ3@ K˜Rhw$€P^ˇøÅ3@ ;…Ïhw$€P^ˇøÉ3@ ©çÜiw$€P^ˇøÉ3@ Â> jw$€P^ˇøÉ3@ é∫jw$€P^ˇøÉ3@ öQkw$€P^ˇøÖ3@ ÷qÎkw$€P^ˇøÖ3@ 6/Ölw$€P^ˇøÖ3@ !ø mw$€ÂØ5 ¿à3@ Ÿ©∏mw$€P^ˇøÖ3@ 3ZRnw$€P^ˇøÉ3@ À%Ïnw$€ÂØ5 ¿à3@ Üow$€P^ˇøÉ3@ Ÿpw$€P^ˇøÉ3@ ufπpw$€ÂØ5 ¿à3@ *3Sqw$€P^ˇøÖ3@ yÌqw$€ÂØ5 ¿à3@ dÑrw$€P^ˇøÖ3@ ˜*sw$€P^ˇøÖ3@ ˜’∑sw$€P^ˇøÉ3@ '§Qtw$€ÂØ5 ¿ä3@ yÎtw$€P^ˇøÖ3@ jLÖuw$€ÂØ5 ¿à3@ ©2vw$€ÂØ5 ¿ä3@ "œ∏vw$€ÂØ5 ¿à3@ $!Pww$€P^ˇøÖ3@ ËÈww$€P^ˇøÖ3@ ‰ªÉxw$€P^ˇøÖ3@ òÖyw$€P^ˇøÖ3@ ¯G∑yw$€P^ˇøÖ3@ t˙Pzw$€ÂØ5 ¿à3@ ûÀÍzw$€P^ˇøÖ3@  †Ñ{w$€ÂØ5 ¿à3@ ãd|w$€ÂØ5 ¿ä3@ ‘,∏|w$€ÂØ5 ¿à3@ áïO}w$€ÂØ5 ¿à3@ ’:È}w$€ÂØ5 ¿ä3@ ò	É~w$€P^ˇøÖ3@ ◊w$€P^ˇøÖ3@ ^†∂w$€ÂØ5 ¿à3@ UjPÄw$€P^ˇøÉ3@ õ∫ÁÄw$€ÂØ5 ¿ä3@ ¨áÅÅw$€P^ˇøÖ3@ ¶ÆÇw$€P^ˇøÖ3@ 'µÇw$€ÂØ5 ¿ä3@ ÎÌNÉw$€ÂØ5 ¿à3@ ñËÉw$€ÂØ5 ¿à3@ ?aÇÑw$€ÂØ5 ¿à3@ ˘0Öw$€ÂØ5 ¿ä3@ ü˚µÖw$€ÂØ5 ¿à3@ X–OÜw$€ÂØ5 ¿à3@ ôïÈÜw$€ÂØ5 ¿ä3@ Ó>Éáw$€ÂØ5 ¿ä3@ èàw$€ÂØ5 ¿à3@ ö€∂àw$€ÂØ5 ¿à3@ 	¢Pâw$€ÂØ5 ¿ä3@ ÈvÍâw$€ÂØ5 ¿ä3@ @√Åäw$€ÂØ5 ¿ä3@ {éãw$€P^ˇøÖ3@ å`µãw$€ÂØ5 ¿à3@ @-Oåw$€ÂØ5 ¿à3@ Æ˛Ëåw$€P^ˇøç3@ =ÀÇçw$€ÂØ5 ¿à3@ 4téw$€ÂØ5 ¿ä3@ ∑<∂éw$€ÂØ5 ¿à3@ ∑Pèw$€ÂØ5 ¿à3@ ê€Èèw$€ÂØ5 ¿ä3@ ∑©Éêw$€P^ˇøç3@ CRëw$€P^ˇøç3@ «∑ëw$€ÂØ5 ¿ä3@ 9Píw$€ÂØ5 ¿ä3@ |ªÍíw$€ÂØ5 ¿ä3@ ;âÑìw$€ÂØ5 ¿ä3@ ZVîw$€ÂØ5 ¿à3@ '˝∑îw$€P^ˇøç3@ Ú≈Qïw$€P^ˇøç3@ œñÎïw$€P^ˇøè3@ mgÖñw$€ÂØ5 ¿à3@ {1ów$€P^ˇøç3@ ÿ÷∏ów$€ÂØ5 ¿à3@ ‹MPòw$€P^ˇøç3@ ¯!Íòw$€P^ˇøç3@ DÜôw$€P^ˇøç3@ '∂öw$€ÂØ5 ¿ä3@ _∑öw$€P^ˇøè3@ ~-Qõw$€P^ˇøç3@ L¯Íõw$€ÂØ5 ¿ä3@ ´≈Ñúw$€6†îˇí3@ |öùw$€ _k Äç3@ g∏ùw$€ _k Äç3@ –	Rûw$€P^ˇøç3@ -‹Îûw$€6†îˇà3@ ı•Öüw$€ÂØ5 ¿ä3@ s†w$€P^ˇøè3@ YAπ†w$€P^ˇøç3@ ∫ÂR°w$€ _k Äç3@ ∆UÍ°w$€ _k Äç3@ °Ñ¢w$€ _k Äç3@ ˜Ó£w$€P^ˇøè3@ Fª∑£w$€P^ˇøè3@ éQ§w$€P^ˇøè3@ 4Î§w$€ _k Äç3@ ∑ˇÑ•w$€P^ˇøè3@ –¶w$€ _k Äë3@ §∏¶w$€ _k Äë3@ ∆mRßw$€ _k Äç3@ Ïßw$€P^ˇøè3@ ~ÁÖ®w$€P^ˇøè3@ ôØ©w$€ _k Äç3@ üÇπ©w$€ _k Äë3@ ºMS™w$€P^ˇøè3@ ”Ì™w$€ _k Äç3@ Ò Ü´w$€ _k Äë3@ |î ¨w$€P^ˇøè3@ +i∫¨w$€ _k Äç3@ ç5T≠w$€P^ˇøè3@ LÓ≠w$€P^ˇøè3@ Ë®áÆw$€P^ˇøè3@ sw!Øw$€P^ˇøè3@ ˚EªØw$€ _k Äç3@ ÿU∞w$€ _k Äë3@ ÷ÿÓ∞w$€P^ˇøè3@ !à±w$€ _k Äë3@ ËÙ≤w$€ _k Äë3@ dªπ≤w$€ _k Äë3@ †öS≥w$€ _k Äë3@ ~\Ì≥w$€ÂØ5 ¿ä3@ 7(á¥w$€ _k Äë3@ ˙– µw$€ _k Äë3@ ’õ∫µw$€ _k Äë3@ ‚fT∂w$€6†îˇî3@ Ω0Ó∂w$€6†îˇî3@ Ùà∑w$€P^ˇøè3@ ≥!∏w$€P^ˇøè3@ 8sª∏w$€6†îˇî3@ ≥ÌRπw$€6†îˇî3@ cªÏπw$€ _k Äë3@ àÜ∫w$€6†îˇñ3@ L ªw$€P^ˇøè3@ Û˘πªw$€P^ˇøè3@  …Sºw$€ _k Äë3@ öïÌºw$€ _k Äë3@ „jáΩw$€ _k Äë3@ ¢/!æw$€ _k Äë3@ ƒ‹∫æw$€ _k Äë3@ ßTøw$€ _k Äë3@ ÙqÓøw$€6†îˇî3@ X=à¿w$€ _k Äë3@ Ã"¡w$€ _k Äë3@ u’ª¡w$€ _k Äë3@ ÜS¬w$€6†îˇñ3@ óÏÏ¬w$€P^ˇøè3@ ßΩÜ√w$€6†îˇñ3@ à ƒw$€6†îˇî3@ hZ∫ƒw$€6†îˇî3@ ¬T≈w$€6†îˇî3@ &«Ì≈w$€6†îˇñ3@ —ùá∆w$€6†îˇî3@ Èa!«w$€6†îˇî3@ ï—∏«w$€6†îˇñ3@ G˝T»w$€6†îˇñ3@ ﬁDÏ»w$€ _k Äë3@ ‹Ü…w$€ _k Äë3@ o› w$€6†îˇî3@ 2≠π w$€6†îˇî3@ \SÀw$€6†îˇî3@ ˘!ÌÀw$€ _k Äô3@ !ÈÜÃw$€6†îˇî3@ pZÕw$€ _k Äô3@ Ò#∏Õw$€6†îˇî3@ oÚQŒw$€6†îˇî3@ ;õÎŒw$€6†îˇî3@ ﬁkÖœw$€6†îˇñ3@ ù7–w$€6†îˇñ3@ óπ–w$€6†îˇî3@ ?ÀR—w$€6†îˇñ3@ ´ïÏ—w$€6†îˇñ3@ æCÜ“w$€6†îˇñ3@ ò ”w$€6†îˇî3@ ¸÷π”w$€ _k Äô3@ wSQ‘w$€6†îˇî3@ t Î‘w$€6†îˇñ3@ Óá’w$€6†îˇò3@ ï÷w$€∞° @î3@  c∏÷w$€P^ˇøë3@ 1R◊w$€P^ˇøï3@ n˘Î◊w$€6†îˇñ3@ ÃÖÿw$€     î3@ ÚrŸw$€P ˇ?ï3@ i;πŸw$€ _k Äï3@ ÍS⁄w$€P^ˇøë3@ ŸÏ⁄w$€P ˇ?ï3@ ßÜ€w$€∞° @í3@ ’H ‹w$€∞° @ê3@ ∫‹w$€ïø÷  ó3@ €˘S›w$€∞° @î3@ ÛπÌ›w$€     í3@ [Çáﬁw$€     í3@ ¯ﬂw$€P ˇ?è3@ °∏ﬂw$€∞° @î3@ kR‡w$€     í3@ È6Ï‡w$€∞° @î3@ AÜ·w$€ïø÷  ó3@ ‘’‚w$€ïø÷  ó3@ }|π‚w$€ïø÷  ó3@ HS„w$€∞° @î3@ ûÌ„w$€k@)ˇˇò3@ ≈ﬁÜ‰w$€ïø÷  ó3@ ¨¨ Âw$€ïø÷  ó3@ Ùv∫Âw$€∞° @î3@ ∑ƒQÊw$€ïø÷  ó3@ âÎÊw$€     ú3@ I\ÖÁw$€k@)ˇˇò3@ >'Ëw$€ïø÷  ó3@ 1Û∏Ëw$€ïø÷  ó3@  õRÈw$€k@)ˇˇò3@ PfÏÈw$€ïø÷  ó3@ N2ÜÍw$€k@)ˇˇò3@ 7£Îw$€k@)ˇˇò3@ ‰m∑Îw$€ïø÷  ó3@  >QÏw$€k@)ˇˇò3@ f·ÍÏw$€     ú3@ 	ÆÑÌw$€k@)ˇˇò3@ w~Ów$€     û3@ 
+H∏Ów$€     û3@ 9RÔw$€k@)ˇˇò3@ 6ΩÎÔw$€P^ˇøô3@ ØkÉw$€P^ˇøü3@ €˘Òw$€k@)ˇˇú3@ √∂Òw$€P ˇ?ü3@ ìPÚw$€ïø÷  £3@ í;ÍÚw$€ïø÷  ü3@ C˚ÉÛw$€P ˇ?°3@ ã∆Ùw$€ïø÷  ü3@ 9µÙw$€P ˇ?°3@ ÄOıw$€ïø÷  £3@ á’Ëıw$€ïø÷  £3@ ìyÇˆw$€P ˇ?°3@ PA˜w$€ïø÷  £3@ ¯∂˜w$€ïø÷  £3@ $äM¯w$€P ˇ?°3@ KÁ¯w$€     ¶3@

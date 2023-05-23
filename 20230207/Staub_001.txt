@@ -1,0 +1,24 @@
+LabVIEW Measurement	
+Writer_Version	2
+Reader_Version	2
+Separator	Tab
+Decimal_Separator	,
+Multi_Headings	Yes
+X_Columns	One
+Time_Pref	Relative
+Operator	Labor
+Date	2023/02/07
+Time	11:29:00,905895233154296875
+***End_of_Header***	
+	
+Channels	1	
+Samples	0	
+Date	2023/02/07	
+Time	11:29:00,905895233154296875	
+X_Dimension	Time	
+X0	0,0000000000000000E+0	
+Delta_X	1,000000	
+***End_of_Header***		
+X_Value	Untitled	Comment
+
+#START#NoDust;0;5000;NoGas;0;1;Papst#ENDE#   
